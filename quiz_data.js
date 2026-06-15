@@ -825,6 +825,83 @@
     explanation: ""
   },
   {
+    q: "Tag nào dùng để tạo tiêu đề kích nhỏ nhất?",
+    options: {
+      A: "`<h1>`",
+      B: "`<h6>`",
+      C: "`<heading>`",
+      D: "`<header>`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Thuộc tính nào dùng để tạo gợi ý nhập liệu cho 1 text field.",
+    options: {
+      A: "`recommend`",
+      B: "`hint`",
+      C: "`placeholder`",
+      D: "`hint=\"Nhập số\"`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Thẻ nào sau đây dùng để tạo một liên kết trong trang1.html đến vị trí pos1 trong trang2.html biết 2 trang lưu trong cùng 1 thư mục?",
+    options: {
+      A: "`<a href=\"pos1&trang2.html\"></a>`",
+      B: "`<a href=\"trang2.html&pos1\"></a>`",
+      C: "`<a href=\"trang2.html#pos1\"></a>`",
+      D: "`<a href=\"trang2.html@pos1\"></a>`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Khi sử dụng thuộc tính display: flex, thì thuộc tính nào đi kèm xác định chiều của các item con trực tiếp",
+    options: {
+      A: "`flex-t`",
+      B: "`flex-grow`",
+      C: "`flex-direction`",
+      D: "`auto`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Để định dạng màu nền cho các ô thuộc dòng đầu tiên của table có id là tbl1, mã css nào đúng?",
+    options: {
+      A: "`table tr {background-color:#F00;}`",
+      B: "`#tbl1 tr:1 {background-color:#F00;}`",
+      C: "`#tbl1 tr:first {background-color:#F00;}`",
+      D: "`#tbl1 tr:first-child {background-color:#F00;}`"
+    },
+    answer: "D",
+    explanation: ""
+  },
+  {
+    q: "Chọn khai báo quan hệ Descendant Selector giữa div và p ?",
+    options: {
+      A: "`div ~ p`",
+      B: "`div p`",
+      C: "`div + p`",
+      D: "`div * p`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Chọn khai báo quan hệ Adjacent Sibling Selector giữa div và p ?",
+    options: {
+      A: "`div ~ p`",
+      B: "`div > p`",
+      C: "`div + p`",
+      D: "`div * p`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
     q: "Thẻ HTML nào được sử dụng để trỏ tới external style sheet?",
     options: {
       A: "`<link rel= “stylesheet” type= “text/css” href=”style.css”>`",
@@ -1241,6 +1318,237 @@
       D: "B"
     },
     answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Thuộc tính nào trong CSS định dạng kiểu border phía top của element",
+    options: {
+      A: "`border-style`",
+      B: "`border-top-type`",
+      C: "`border-top-family`",
+      D: "`border-top-style`"
+    },
+    answer: "D",
+    explanation: ""
+  },
+  {
+    q: "Nếu viết padding: 20px 50px 10px 30px thì padding-bottom là bao nhiêu?",
+    options: {
+      A: "`10px`",
+      B: "`50px`",
+      C: "`20px`",
+      D: "`30px`"
+    },
+    answer: "A",
+    explanation: ""
+  },
+  {
+    q: "JavaScript là ngôn ngữ dịch mã nguồn theo kiểu nào?",
+    options: {
+      A: "`Biên dịch`",
+      B: "`Thông dịch`",
+      C: "`Cả biên dịch và thông dịch`",
+      D: "`Không có dạng nào`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Hàm alert(...) trong JavaScript dùng để làm gì?",
+    options: {
+      A: "`Hiển thị một thông báo Yes, No`",
+      B: "`Hiển thị thông báo yêu cầu nhập thông tin`",
+      C: "`Hiển thị một thông báo`",
+      D: "`Không phương án nào đúng`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Hàm prompt(...) trong JavaScript dùng để làm gì?",
+    options: {
+      A: "`Hiển thị một thông báo`",
+      B: "`Hiển thị một thông báo Yes, No`",
+      C: "`Hiển thị thông báo yêu cầu nhập thông tin`",
+      D: "`Không phương án nào đúng`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Đâu là kết quả của phép tính sau 2+6+'3'",
+    options: {
+      A: "`83`",
+      B: "`'83'`",
+      C: "`11`",
+      D: "`'11'`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Trong javascript biểu thức x===y có nghĩa là:",
+    options: {
+      A: "`Cả x và y đều bằng nhau về giá trị, kiểu và địa chỉ tham chiếu.`",
+      B: "`Cả hai đều là x và y chỉ bằng nhau về giá trị.`",
+      C: "`Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.`",
+      D: "`Cả hai đều không giống nhau chút nào.`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Trong JavaScript sự kiện Onblur thực hiện khi nào?",
+    options: {
+      A: "`Khi di chuyển con chuột qua form`",
+      B: "`Khi một đối tượng trong form mất focus`",
+      C: "`Khi một đối tượng trong form nhận focus`",
+      D: "`Khi di chuyển chuột vào nút lệnh`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Hàm nào trong JavaScript được sử dụng để chọn tất cả các đối tượng có class=\"selector\"?",
+    options: {
+      A: "`querySelectorAll()`",
+      B: "`querySelector()`",
+      C: "`getElementByClass()`",
+      D: "`Cả a,b,c đều sai`"
+    },
+    answer: "A",
+    explanation: ""
+  },
+  {
+    q: "Cách khai báo mảng nào trong javascript là đúng ?",
+    options: {
+      A: "`var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")`",
+      B: "`var colors = (1:\"red\", 2:\"green\", 3:\"blue\")`",
+      C: "`var colors = [\"red\", \"green\", \"blue\"]`",
+      D: "`var colors = \"red\", \"green\", \"blue\"`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Form có id=frm, để lấy giá trị phần tử trong form có id=n ra biến x, mã javascript là",
+    options: {
+      A: "`x = document.getElementById('n');`",
+      B: "`x = document.getElementById('n').value;`",
+      C: "`x = document.frm.n.value;`",
+      D: "`x = document.frm.n.value();`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Cho mảng arr = ['aa','bb','cc','dd']; để xóa 'bb' và 'cc' mã javascript là",
+    options: {
+      A: "`arr.splice(1,1);`",
+      B: "`arr.splice(1,3);`",
+      C: "`arr.splice(2,3);`",
+      D: "`arr.splice(1,2);`"
+    },
+    answer: "D",
+    explanation: ""
+  },
+  {
+    q: "Để ẩn phần tử có id=txt, mã javascript là",
+    options: {
+      A: "`document.getElementById('txt').display= 'none';`",
+      B: "`document.getElementById('txt').style.display= 'none';`",
+      C: "`document.getElementById('txt').css.display= 'none';`",
+      D: "`document.getElementById('txt').style.display= 'hide';`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Để đổi kích thước chữ của phần tử có id=txt thành 60px, mã javascript là",
+    options: {
+      A: "`document.getElementById('txt').style.fontSize= '60px';`",
+      B: "`document.getElementById('txt').css.fontSize= '60px';`",
+      C: "`document.getElementById('txt').style.Size= '60px';`",
+      D: "`document.getElementById('txt').fontSize= '60px';`"
+    },
+    answer: "A",
+    explanation: ""
+  },
+  {
+    q: "Để xóa phần tử thứ 1 có class là class1 bằng jQuery là:",
+    options: {
+      A: "`$('#class1')[0].remove();`",
+      B: "`$('.class1')[0].remove();`",
+      C: "`$('#class1')[1].remove();`",
+      D: "`$('.class1')[1].remove();`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Để xóa phần tử thứ 2 có class là class1 bằng jQuery là:",
+    options: {
+      A: "`$('.class1')[0].remove();`",
+      B: "`$('#class1')[0].remove();`",
+      C: "`$('.class1')[1].remove();`",
+      D: "`$('#class1')[1].remove();`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Tìm phần tử đầu tiên `<p>` và thay đổi giá trị của phần tử đó thành \"Hello\", mã javascript là",
+    options: {
+      A: "`document.getElementsByName('p')[0].innerHTML = 'Hello';`",
+      B: "`document.getElementsByTagName('p')[0].innerHTML = 'Hello';`",
+      C: "`document.getElementsByName('p')[1].innerHTML = 'Hello';`",
+      D: "`document.getElementsByTagName('p')[0].innerText = 'Hello';`"
+    },
+    answer: "B",
+    explanation: ""
+  },
+  {
+    q: "Tìm phần tử thứ 2 `<p>` và thay đổi giá trị của phần tử đó thành \"Hello\", mã javascript là",
+    options: {
+      A: "`document.getElementsByName('p')[0].innerHTML = 'Hello';`",
+      B: "`document.getElementsByName('p')[1].innerHTML = 'Hello';`",
+      C: "`document.getElementsByTagName('p')[0].innerText = 'Hello';`",
+      D: "`document.getElementsByTagName('p')[1].innerHTML = 'Hello';`"
+    },
+    answer: "D",
+    explanation: ""
+  },
+  {
+    q: "Để đổi màu chữ của phần tử có name=n thành 'red', mã javascript là",
+    options: {
+      A: "`document.getElementsByName('n').color='red';`",
+      B: "`document.getElementsByName('n').add.color='red';`",
+      C: "`document.getElementsByName('n')[0].css.color='red';`",
+      D: "`document.getElementsByName('n')[0].style.color='red';`"
+    },
+    answer: "D",
+    explanation: ""
+  },
+  {
+    q: "Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 1 ra biến a, mã javascript là",
+    options: {
+      A: "`a = document.getElementsByName(\"BUTTON\")[0].attributes[0].name;`",
+      B: "`a = document.getElementsByName(\"BUTTON\")[0].attributes[1].name;`",
+      C: "`a = document.getElementsByTagName(\"BUTTON\")[0].attributes[0].name;`",
+      D: "`a = document.getElementsByTagName(\"BUTTON\")[1].attributes[0].name;`"
+    },
+    answer: "C",
+    explanation: ""
+  },
+  {
+    q: "Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 2 ra biến a, mã javascript là",
+    options: {
+      A: "`a = document.getElementsByTagName(\"BUTTON\")[0].attributes[0].name;`",
+      B: "`a = document.getElementsByTagName(\"BUTTON\")[1].attributes[0].name;`",
+      C: "`a = document.getElementsByName(\"BUTTON\")[0].attributes[0].name;`",
+      D: "`a = document.getElementsByName(\"BUTTON\")[1].attributes[0].name;`"
+    },
+    answer: "B",
     explanation: ""
   }
 ];
