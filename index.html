@@ -645,7 +645,7 @@
             <span class="logo-icon">&lt;/&gt;</span>
             <h1>Hệ Thống Trắc Nghiệm Ôn Tập</h1>
         </div>
-        <p class="subtitle">HTML, CSS & Javascript (Trộn đề ngẫu nhiên)</p>
+        <p class="subtitle">HTML, CSS & Javascript (<span id="total-questions-count">0</span> câu hỏi, Trộn đề ngẫu nhiên)</p>
     </header>
 
     <!-- Configuration panel -->
@@ -759,6 +759,7 @@
         userAnswers = {};
         currentSingleIndex = 0;
         originalQuestions = JSON.parse(JSON.stringify(quizData));
+        document.getElementById('total-questions-count').innerText = originalQuestions.length;
         applySettings();
     }
 
