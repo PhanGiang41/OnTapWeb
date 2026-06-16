@@ -57,9 +57,9 @@
   {
     q: "Đoạn mã `X<sub><u>2</u></sub>` xuất ra trình duyệt là gì?",
     options: {
-      A: "X2",
-      B: "X2",
-      C: "X2",
+      A: "X<sub><u>2</u></sub>",
+      B: "X<sup><u>2</u></sup>",
+      C: "X<sub>2</sub>",
       D: "X2"
     },
     answer: "A",
@@ -68,9 +68,9 @@
   {
     q: "Đoạn mã `X<sup>2</sup>` xuất ra trình duyệt là gì?",
     options: {
-      A: "X2",
+      A: "X₂",
       B: "X2",
-      C: "X2",
+      C: "X²",
       D: "`X<sup>2</sup>`"
     },
     answer: "C",
@@ -84,7 +84,7 @@
       C: "`<a name=” # tên_bookmark”>…</a>`",
       D: "`<p id=”tên_bookmark”>…</p>`"
     },
-    answer: "D",
+    answer: ["A", "D"],
     explanation: "Có hai cách tạo liên kết trong trang (bookmark): dùng thẻ `<a>` có thuộc tính `name` hoặc gán thuộc tính `id` cho bất kỳ thẻ nào."
   },
   {
@@ -112,9 +112,9 @@
   {
     q: "Đoạn mã `This is a <span>sentence</span>` xuất ra trình duyệt là gì?",
     options: {
-      A: "This is a sentence",
-      B: "This is a sentence",
-      C: "This is a **sentence**",
+      A: "This is a **sentence**",
+      B: "This is a <br>sentence",
+      C: "`This is a <span>sentence</span>`",
       D: "This is a sentence"
     },
     answer: "D",
@@ -535,7 +535,7 @@
       C: "Bình thường",
       D: "Không nên ôn"
     },
-    answer: "D",
+    answer: ["A", "B", "C", "D"],
     explanation: "Đây là câu hỏi khảo sát ý kiến cá nhân trên website gốc."
   },
   {

@@ -1,0 +1,24 @@
+﻿=== PAGE 1 ===
+<'DOCTYPE html> <html> <head> <meta charset="UTF-8"> <title>Bäi toän tinh toän</title> </head> <bodp <form actior-—• name="F"> x <input type='text' y <input type='text' Phép toän: <input type="radio" name="op" value="+"> + <input type="radio" name="op" value="-"> - <br> Két quå: <input type="text" name="ketqua"> <input type="button" onclick='tinhToan()" value="Két Quå"><br> <div id="Err"></div> </form> <script> function tinhToan() { // Läy cäc giä tri däu väo let x = let y = if OisPrime(x) II lisPrime(y)) { alert('Vui löng nhäp cäc s6 nguyén t&"); retum; let ops = document.F.op;
+
+=== PAGE 2 ===
+let ketqua = document_F _ketqua; let err = document.getElementByldC'Err"); // Xöa thöng bäo Idi cü err_innerHTML "black"; = "normal"; // Kiém tra x, y cö phåi lä Sö khöng if (x II y "" II isNaN(x) II isNaN(y)) { err_innerHTML = "Vui löng nhäp Sö hop le cho x Vä y." err_style.color - "red", err_style.fontWeight — "bold", ketqua_value retum; parseFloat(x); x y - parseFloat(y); // Läy phép toän duroc chon let toanTu = null; if (ops.length = undefined) { if (ops_checked) { toanTu opsvalue; } else { for (let i = 0; i < ops.length; i++) { if (ops[i].checked) { toanTu ops[i]_value;
+
+=== PAGE 3 ===
+break; // Néu khöng chon phép toän if (toanTu = null) { err_innerHTML = "Vui löng chon phép toän_", err_style.color - "red", err_style.fontWeight — "bold", ketqua_value retum; // Tinh két quå let kq = 0; if (toanTu kq=x + y; } else if (toanTu kq=x- y; // Gän két quå Vä xöa löi néu cö ketqua_value = kq; err_innerHTML </script> </bodp </html>
+
+=== PAGE 4 ===
+function isPrime(n) { if (n < 2 II n % 1 0) return false; for (let i = 2; i Mathsqrt(n); i++) { if (n % i 0) return false; return true; function isPerfectSquare(n) { if (n < 0) return false, let sqrt = Math.sqrt(n); return sqrt- = Math. floor(sqrt); function isPerfectNumber(n) { if (n 0 II n % 1 0) return false; let sum = 0, for (let i = 1; i n/ 2; i++) { if (n % i 0) sum += i; return sum function isPositivelnteger(n) { return Number.islnteger(n) && n > 0; function isFibonacci(n) { if (n < 0) return false; let isSquare = x => { let s - Math.sqrt(x); return s Math.floor(s); return isSquare(5 n n +4) II isSquare(5 * n n - 4); } let num = parselnt(document.F.y1 value); if (isPrime(num)) console_log("Lä s6 nguyén if (isPerfectSquare(num)) Sö chinh phuong");
+
+=== PAGE 5 ===
+if (isPerfectNumber(num)) console_logC'Lä Sö hoän håo"); if (isPositivelnteger(num)) console.log("Lä s6 nguyén duong"); if (isFibonacci(num)) console_logC'Lä Sö Fibonacci"); <'DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" <meta name='Viewport' content="width=device-width, initial-scale-I <title>Responsive Layout</title> <style> * { box-sizing: border-box; margin: 0; padding: 0; } container { padding: 10px; display: flex; flex-direction: column; gap. 1 Opx; max-width: 1024px; margin: auto; box { height: 60px; background: gray; } orange { background: #f4a261 ; } yellow { background: #e9c46a; height: 120px; } blue { background: #2a9d8f; } gray { background: #d3d3d3; }
+
+=== PAGE 6 ===
+grid { display: flex; flex-direction: column; gap: 10px; } @media (min-width: 321 px) { grid-gray { display: grid; grid-template-columns: repeat(2, Ifr); gap. 1 Opx; grid-gray box { display: block; } @media (min-width: 769px) { grid-orange { display: grid; grid-template-columns: repeat(2, Ifr); gap. 1 Opx; grid-blue { display: grid; grid-template-columns: repeat(3, Ifr); gap. 1 Opx; grid-gray { grid-template-columns: repeat(4, Ifr); @media (max-width: 320px) { grid-gray { display: none,
+
+=== PAGE 7 ===
+</style> </head> <bodp <div class="container"> <div class="grid grid-orange"> <div class="box orange"></div> <div class="box orange"></div> <div class-"box yellow"></div> <div class-"grid grid-blue"> <div class-"box blue"></div> <div class-"box blue"></div> <div class-"box blue"></div> <div class="grid grid-gray"> <div class-"box gray"></div> <div class-"box gray"></div> <div class-"box gray"></div> <div class-"box gray"></div> </div> </bodp </html>
+
+=== PAGE 8 ===
+
+

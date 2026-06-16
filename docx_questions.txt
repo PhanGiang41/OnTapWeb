@@ -1,0 +1,669 @@
+﻿Tổng hợp các câu hỏi trắc nghiệm Nhập Môn Web Và Ứng Dụng
+Đề 1: (2020-2021)
+1. Đoạn mã ab<c>d</c> xuất ra trên trình duyệt là gì?
+   a. ab<c>d</c>
+   b. abd
+   c. abcd
+   d. Lỗi
+2. Đoạn mã X<sup>2</sup> xuất ra trình duyệt là gì?
+   a. X₂
+   b. X2
+   c. X²
+   d. X<sup>2</sup>
+3. Trong <table> thuộc tính màu nền là?
+   a. background
+   b. bordercolor
+   c. bgcolor
+   d. background-color
+4. Để mở liên kết trong một cửa sổ mới sử dụng thuộc tính?
+   a. target=”_top”
+   b. target=”_self”
+   c. target=”_blank”
+   d. target=”_parent”
+5. Tag nào dùng để tạo tiêu đề kích thước nhỏ nhất?
+   a. <h1>
+   b. <h6>
+   c. <heading>
+   d. <header>
+6. Thuộc tính nào xác định tốc độ chuyển động của <marquee>?
+   a. scrollamount
+   b. behavior
+   c. direction
+   d. loop
+7. Trong textfield <input type="text"/> thuộc tính nào giới hạn số ký tự nhập vào?
+   a. size
+   b. maxlength
+   c. width
+   d. value
+8. Thuộc tính nào dùng để tạo gợi ý nhập liệu cho 1 text field?
+   a. recommend
+   b. hint
+   c. placeholder
+   d. hint = “Nhập số”
+9. Thêm thuộc tính nào vào <input type="text" ...> để không cho người dùng thay đổi giá trị của nó nhưng vẫn gửi dữ liệu lên server?
+   a. enable="false"
+   b. readonly
+   c. locked
+   d. change-value="no"
+10. Thẻ nào sau đây dùng để tạo một liên kết trong trang1.html đến vị trí pos1 trong trang2.html biết 2 trang lưu trong cùng 1 thư mục?
+   a. <a href="pos1&trang2.html"></a>
+   b. <a href="trang2.html&pos1"></a>
+   c. <a href="trang2.html#pos1"></a>
+   d. <a href="trang2.html@pos1"></a>
+11. Trong CSS, thuộc tính nào dùng để định dạng màu chữ?
+   a. font-color
+   b. font color
+   c. color
+   d. text-color
+12. Thuộc tính nào trong CSS dùng để định dạng chữ nghiêng?
+   a. text-decoration
+   b. text-transform
+   c. italic
+   d. font-style
+13. Thuộc tính nào trong CSS định dạng kiểu border phía top của element
+   a. border–style
+   b. border-top-type
+   c. border-top-family
+   d. border-top-style
+14. Nếu viết padding: 20px 50px 10px 30px thì padding-bottom là bao nhiêu?
+   a. 10px
+   b. 50px
+   c. 20px
+   d. 30px
+15. CSS selector sau đây mang ý nghĩa gì?   ul > li[class="a"] { }
+   a. selector các thẻ li con gián tiếp của ul và có class là a
+   b. selector các thẻ li đồng cấp của ul và có class là a
+   c. selector các thẻ li theo sau của ul và có class là a
+   d. selector các thẻ li con trực tiếp của ul và có class là a
+16. Khi sử dụng thuộc tính display: flex, thì thuộc tính nào đi kèm xác định chiều của các item con trực tiếp
+   a. flex-t
+   b. flex-grow
+   c. flex-direction
+   d. auto
+17. Để định dạng màu nền cho các ô thuộc dòng đầu tiên của table có id là tbl1, mã css nào đúng?
+   a. table tr {background-color:#F00;}
+   b. #tbl1 tr1 {background-color:#F00;}
+   c. #tbl1 tr:first {background-color:#F00;} 
+   d. #tbl1 tr:first-child {background-color:#F00;}
+18. Chọn khai báo quan hệ Descendant Selector giữa div và p?
+   a. div ~ p
+   b. div p
+   c. div * p
+   d. div + p
+19. Giá trị nào của thuộc tính position có cố định so với cửa sổ và không thay đổi khi scroll?
+   a. Absolute
+   b. Fixed
+   c. Relative
+   d. Static
+20. pseudo-class CSS đại diện cho phần tử cuối cùng trong nhóm các phần tử đồng cấp
+   a. :end-child
+   b. :last-element
+   c. :last-child
+   d. :Cả 2,b,c đều sai
+21. Để kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?
+   a. if (i != 5)
+   b. if (i <> 5)
+   c. if I <> 5
+   d. if i !=5 then
+22. Hàm alert(...) trong JavaScript dùng để làm gì?
+   a. Hiển thị một thông báo Yes, No
+   b. Hiển thị thông báo yêu cầu nhập thông tin
+   c. Hiển thị một thông báo
+   d. Không phương án nào đúng
+23. Đâu là kết quả của phép tính sau 2+6+'3'
+   a. 83
+   b. '83'
+   c. 11
+   d. '11'
+24. Trong JavaScript biểu thức x===y có nghĩa là:
+   a. Cả x và y đều bằng nhau về giá trị, kiểu và địa chỉ tham chiếu.
+   b. Cả hai đều là x và y chỉ bằng nhau về giá trị.
+   c. Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.
+   d. Cả hai đều không giống nhau chút nào.
+25. Trong JavaScript sự kiện Onblur thực hiện khi nào?
+   a. Khi di chuyển con chuột qua form
+   b. Khi một đối tượng trong form mất focus
+   c. Khi một đối tượng trong form nhận focus
+   d. Khi di chuyển con chuột vào nút lệnh
+26. Hàm nào trong JavaScript được sử dụng để chọn tất cả các đối tượng có class=“selector”?
+   a. querySelectorAll()
+   b. querySelector()
+   c. getElementByClass()
+   d. Cả a,b,c đều sai
+27. Cách khai báo mảng nào trong javascript là đúng?
+   a. var colors = 1:("red"), 2:("green"), 3 = ("blue")
+   b. var colors = (1:"red", 2:"green", 3:"blue")
+   c. var colors = ["red", "green", "blue"]
+   d. var colors = "red", "green", "blue"
+28. Để truy cập, lấy giá trị phần tử trong form có id=n ra biến x, mã javascript là
+   a. x = document.getElementById(n);
+   b. x = document.getElementById('n').value;
+   c. x = document.frm.n.value();
+   d. x = document.frm.n.value;
+29. Cho mảng arr = ['aa','bb','cc','dd']; để xóa ‘aa’, ‘bb’ và ‘cc’ mã javascript là:a. arr.splice(0,1);b. arr.splice(0,2);c. arr.splice(1,3);d. arr.splice(1,2); 
+e. Arr.splice(0,3); (trên đáp án ko có nhé)
+30. Để ẩn phần tử có id=txt, mã javascript là:a. document.getElementById('txt').display = 'none';b. document.getElementById('txt').style.display = 'none'; c. document.getElementById('txt').css.display = 'none';d. document.getElementById('txt').style.display = 'hide';
+31. Để đổi kích thước chữ của phần tử có id=txt thành 60px, mã javascript là:a. document.getElementById('txt').style.fontSize = '60px'; b. document.getElementById('txt').css.fontSize = '60px';c. document.getElementById('txt').style.Size = '60px';d. document.getElementById('txt').fontSize = '60px';
+32. Để xóa phần tử thứ 1 có class là class1 bằng jQuery là:a. $('#class1')[0].remove();b. $('.class1')[0].remove();c. $('#class1')[1].remove(); d. $('.class1')[1].remove();
+33. Tìm phần tử thứ 2 <p> và thay đổi giá trị của phần tử đó thành "Hello", mã javascript là:a. document.getElementsByName('p')[0].innerHTML = 'Hello';b. document.getElementsByName('p')[1].innerHTML = 'Hello';c. document.getElementsByTagName('p')[1].innerText = 'Hello'; d. document.getElementsByTagName('p')[1].innerHTML = 'Hello';
+34. Để đổi màu chữ của phần tử có name='n' thành 'red', mã javascript là:a. document.getElementsByName('n').color='red';b. document.getElementsByName('n').add.color='red';c. document.getElementsByName('n').css.color='red'; d. document.getElementsByName('n').style.color='red';
+35. Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 1 ra biến a, mã javascript là:a. a = document.getElementsByName("BUTTON")[0].attributes[0].name; b. a = document.getElementsByName("BUTTON")[0].attributes[1].name;c. a = document.getElementsByTagName("BUTTON")[0].attributes[0].name;d. a = document.getElementsByTagName("BUTTON")[1].attributes[0].name;
+Đề 2: (2020-2021)
+1. Đoạn mã <pre> 1 - 10 </pre> xuất ra trình duyệt là gì?a. 1-10b. 1 - 10 c. 1 10d. 1-10
+2. Tag nào dùng để tạo tiêu đề kích lớn nhất?a. <heading>b. <header>c. <h1> d. <h6>
+3. Để đánh dấu bookmark (liên kết trong) ta sử dụng cách nào sau đây?a. <a name="tên_bookmark">...</a>b. <p id="tên_bookmark">...</p>c. <a name="#tên_bookmark">...</a>d. Cả a và b 
+4. Để mở liên kết trong một cửa sổ mới sử dụng thuộc tính?a. target="_top"b. target="_blank" c. target="_self"d. target="_parent"
+5. Thuộc tính nào xác định tốc độ chuyển động của <marquee>?a. scrollamount b. behaviorc. directiond. loop
+6. Trong <table> sử dụng thẻ <th> nội dung sẽ tự động?a. Căn đều 2 bênb. Căn phảic. Căn giữa ô d. Tất cả đều sai
+7. Trong <table> canh chỉnh nội dung các ô theo chiều dọc là?a. alignb. valign c. halignd. text-align
+8. Trong <table> để nối (trộn) các ô theo chiều ngang dùng thuộc tính?a. colpan b. colspanc. rowpand. rowspan
+9. Thêm gì vào <input type="text" /> để có được gợi ý “Nhập số” như hình sau?
+a. value="Nhập số"b. comment="Nhập số"c. hint="Nhập số"d. placeholder="Nhập số" 
+10. Trong thẻ <input type="text" /> thuộc tính nào giới hạn số ký tự nhập vào?a. sizeb. widthc. maxlength d. value
+11. Cú pháp CSS nào được sử dụng để chuyển tất cả các thẻ <p> thành chữ in đậm?a. p {text-size:bold}b. p {font-weight:bold} c. style:boldd. p {font:bold}
+12. Thuộc tính nào của CSS không cho hình nền lặp lại?a. background-repeat: no-repeatb. image-repeatc. background-norepeatd. bgimage-repeat
+13. Lựa chọn thiết lập ảnh nền cố định?a. background-attachment: fixb. background-attachment: fixed c. background-attachment: scrolld. Tất cả đều sai
+14. CSS selector sau đây mang ý nghĩa gì?ul > li[class="a"] { }
+a. selector các thẻ li con gián tiếp của ul và có class là ab. selector các thẻ li con trực tiếp của ul và có class là a c. selector các thẻ li đồng cấp của ul và có class là ad. selector các thẻ li theo sau của ul và có class là a
+15. Thuộc tính và giá trị CSS nào dùng để chuyển tất cả các ký tự đầu chữ viết hoa?
+a. text-transform: uppercaseb. text-transform: capitaliza c. text-transform: properd. Không thể làm được với CSS
+16. Khi sử dụng thuộc tính display: flex, thuộc tính nào đi kèm để xác định chiều của các item trực tiếp?
+a. flex-direction b. flex-growc. flex-td. auto
+17. Để định dạng màu nền cho các ô thuộc dòng đầu tiên của table có id là tbl1, mã CSS nào đúng?
+a. table tr {background-color:#F00;}b. #tbl1 tr:1 {background-color:#F00;} c. #tbl1 tr:first {background-color:#F00;}d. #tbl1 tr:first-child {background-color:#F00;} 
+18. Nếu viết padding: 20px 50px 10px 30px thì padding-left là bao nhiêu?
+a. 10pxb. 50pxc. 20pxd. 30px 
+19. Giá trị nào của thuộc tính position cố định so với cửa sổ và không thay đổi khi scroll?
+a. Absoluteb. Fixed c. Relatived. Static
+20. Chọn khai báo quan hệ Adjacent Sibling Selector giữa div và p?
+a. div ~ pb. div > pc. div + p d. div * p
+21. JavaScript là ngôn ngữ dịch mà nguồn theo kiểu nào?
+a. Biên dịchb. Thông dịch c. Cả biên dịch và thông dịchd. Không có dạng nào
+22. Hàm prompt(…) trong JavaScript dùng để làm gì?
+a. Hiển thị một thông báob. Hiển thị một thông báo Yes, Noc. Hiển thị thông báo yêu cầu nhập thông tin d. Không phương án nào đúng
+23. Trong JavaScript biểu thức x === y có nghĩa là:
+a. Cả x và y đều bằng nhau về giá trị, kiểu và địa chỉ tham chiếub. Cả hai đều là x và y chỉ bằng nhau về giá trịc. Cả hai đều bằng nhau về giá trị và kiểu dữ liệu d. Cả hai đều không giống nhau chút nào
+24. Trong JavaScript sự kiện Onblur thực hiện khi nào?
+a. Khi một đối tượng trong form nhận focusb. Khi một đối tượng trong form mất focus c. Khi di chuyển con chuột qua formd. Khi di chuyển chuột vào nút lệnh
+25. Cách khai báo mảng nào trong JavaScript là đúng?
+a. var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")b. var colors = ["red", "green", "blue"] c. var colors = {1:"red", 2:"green", 3:"blue"}d. var colors = "red", "green", "blue"
+26. Để kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?
+a. if (i <> 5)b. if i <> 5c. if (i != 5) d. if i ! 5 then
+27. Hàm nào trong JavaScript được sử dụng để chọn tất cả các đối tượng có class = “selector”?
+a. querySelector()b. querySelectorAll() c. getElementByClass()d. Cả a, b, c đều sai
+28. Form có name=frm, để lấy giá trị phần tử trong form có name=n ra biến x, mã JavaScript là
+a. x = document.frm.n.value;b. x = document.frm.n.value();c. x = document.getElementByName('n');d. x = document.getElementsByName('n').value;
+29. Tìm phần tử đầu tiên <p> và thay đổi giá trị của phần tử đó thành "Hello", mã JavaScript là
+a. document.getElementsByTagName('p')[0].innerHTML = 'Hello';b. document.getElementsByTagName('p')[0].innerHTML = “Hello”; 
+c. document.getElementsByTagName('p')[1].innerHTML = 'Hello'; d. document.getElementsTagName('p')[0].innerText = 'Hello'; 
+30. Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 2 biến a, mã JavaScript là
+a. a = document.getElementsByTagName("BUTTON")[0].attributes[0].name;b. a = document.getElementsByTagName("BUTTON")[1].attributes[0].name;c. a = document.getElementsByName("BUTTON")[0].attributes[0].name; (sai do dùng getElementsByName)d. a = document.getElementsByName("BUTTON")[0].attributes[1].name;
+31. Để đổi màu chữ của phần tử có name=n thành red, mã JavaScript là
+a. document.getElementsByName('n').color = 'red';b. document.getElementsByName('n').add.color = 'red';c. document.getElementsByName('n')[0].style.color = 'red';d. document.getElementsByName('n').css.color = 'red';
+32. Để ẩn phần tử có id=txt, mã JavaScript là
+a. document.getElementById('txt').display = 'none';b. document.getElementById('txt').css.display = 'none';c. document.getElementById('txt').style.display = 'none';d. document.getElementById('txt').style.display = 'hide';
+33. Để đổi kích thước chữ của phần tử có id=txt thành 60px, mã JavaScript là
+a. document.getElementById('txt').css.fontSize = '60px';b. document.getElementById('txt').style.fontSize = '60px'; c. document.getElementById('txt').style.Style = '60px';d. document.getElementById('txt').fontSize = '60px';
+34. Cho mảng arr = ['aa','bb','cc','dd']; để xoá 'bb' và 'cc' mã JavaScript là
+a. arr.splice(1,1); b. arr.splice(1,3); c. arr.splice(2,3); d. arr.splice(1,2); 
+35. Để xoá phần tử thứ 2 có class là class1 bằng jQuery là:a. $('.class1')[0].remove();b. $('#class1')[0].remove();c. $('.class1')[1].remove();d. $('#class1')[1].remove();
+Đề 3: 
+Câu hỏi 1: Giá trị mặc định của thuộc tính float trong CSS là gì?
+a. let
+b. right
+c. none
+d. inherit
+Câu hỏi 2: Khi một phần tử con được float, phần tử cha của nó sẽ:
+a. Tự động điều chỉnh chiều cao để bao gồm phần tử con float
+b. Không bao gồm phần tử con float trong chiều cao của nó
+c. Trở thành vị trí tương đối
+d. Trở thành vị trí tuyệt đối
+Câu hỏi 3: Thuộc tính nào được sử dụng để thay đổi khoảng cách giữa các ký tự trong CSS?
+a. letter-spacing
+b. character-spacing
+c. text-spacing
+d. word-spacing
+Câu hỏi 4: Thuộc tính CSS nào sau đây có thể được sử dụng để thiết lập một phần tử cố định ở góc dưới cùng bên phải của cửa sổ trình duyệt?
+a. position: fixed; bottom: 0; right: 0;
+b. position: absolute; bottom: 0; right: 0;
+c. position: static; bottom: 0; right: 0;
+d. position: relative; bottom: 0; right: 0;
+Câu hỏi 5: Thuộc tính CSS nào được sử dụng để ẩn một phần tử?
+a. display: none;
+b. display: hidden;
+c. visibility: hidden;
+d. visibility: none;
+Câu hỏi 6: Selector nào chọn tất cả các phần tử có class là "example"?
+a. *example
+b. #example
+c. example
+d. .example
+Câu hỏi 7: Selector nào chọn tất cả các phần tử <p> mà là phần tử đầu tiên con của phần tử cha?
+a. p:first-child
+b. p:first-of-type
+c. p:only-child
+d. p:last-child
+Câu hỏi 8: Selector nào dưới đây để chọn phần tử <li> ở vị trí lẻ trong một danh sách?
+a. li:nth-child(even)
+b. li:nth-of-type(odd)
+c. li:nth-child(odd)
+d. li:odd-child
+Câu hỏi 9: Khi một phần tử thuộc tính position: fixed;, phần tử đó sẽ:
+a. Di chuyển cùng với trang khi cuộn.
+b. Vẫn luôn ở cùng vị trí trong cửa sổ trình duyệt khi cuộn trang.
+c. Được đặt tương đối so với phần tử con gần nhất có thuộc tính position.
+d. Được đặt tương đối so với phần tử cha gần nhất.
+Câu hỏi 10: Để ngăn chặn các phần tử bị bao quanh một phần tử đã được float, ta sử dụng thuộc tính nào?
+a. clear
+b. float
+c. overflow
+d. display
+Câu hỏi 11: Responsive Web Design (RWD) là gì?
+a. Một kỹ thuật lập trình chỉ áp dụng cho máy tính cá nhân
+b. Một phương pháp thiết kế web để tạo ra trang web hiển thị tốt trên nhiều thiết bị và kích thước màn hình khác nhau
+c. Một loại kiến trúc mạng để tăng tốc độ tải trang web
+d. Một loại hình quảng cáo trên mạng Internet
+Câu hỏi 12: Câu lệnh @media nào dưới đây áp dụng các quy tắc CSS khi chỉ chiều rộng của thiết bị nhỏ hơn hoặc bằng 600px?
+a. @media screen and (max-width: 600px) { ... }
+b. @media screen and (min-width: 600px) { ... }
+c. @media screen and (max-height: 600px) { ... }
+d. @media screen and (min-height: 600px) { ... }
+Câu hỏi 13: Media query nào dưới đây áp dụng các quy tắc CSS khi chiều cao của cửa sổ trình duyệt ít nhất là 400px và chiều rộng nhỏ hơn hoặc bằng 600px?
+a. @media screen and (min-height: 400px) and (max-width: 600px) { ... }
+b. @media screen and (height: 400px) and (width: 600px) { ... }
+c. @media screen and (min-height: 400px) and (width: 600px) { ... }
+d. @media screen and (height: 400px) and (max-width: 600px) { ... }
+Câu hỏi 14: Thuộc tính CSS nào được sử dụng để xác định tỷ lệ mà một phần tử con sẽ mở rộng trong container Flexbox?
+a. flex-grow
+b. flex-shrink
+c. flex-basis
+d. flex
+Câu hỏi 15: Thuộc tính flex-shrink được sử dụng để xác định điều gì về phần tử con trong container Flexbox?
+a. Tỷ lệ mở rộng
+b. Tỷ lệ co lại
+c. Tỷ lệ không gian trống
+d. Tỷ lệ phân trăm
+Câu hỏi 16: Trong JavaScript, từ khóa nào được sử dụng để khai báo một biến không thể thay đổi giá trị sau khi đã được gán giá trị?
+a. let
+b. var
+c. const
+d. static
+Câu hỏi 17: Kết quả của biểu thức 2 + "2" trong JavaScript là gì?
+a. 4
+b. "22"
+c. NaN
+d. undefined
+Câu hỏi 18: Kết quả biến x là gì? var x = parseInt("12.5A") + parseFloat("12.4A");
+a. 24.9
+b. 24.5
+c. 24.9
+d. "125124"
+Câu hỏi 19: Đoạn mã nào có nhiệm vụ tạo đối tượng trong JavaScript?
+a. conts dog = {};
+b. conts dog = new Object();
+c. conts dog = Object.create({});
+d. Tất cả đều đúng
+Câu hỏi 20: Trong JavaScript, biểu thức x=== y có nghĩa là:
+a. Cả hai chỉ bằng nhau về giá trị, kiểu và địa chỉ tham chiếu.
+b. Cả hai chỉ bằng nhau về giá trị.
+c. Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.
+d. Cả hai đều không giống nhau chút nào.
+Câu hỏi 21: Lệnh x = 10; x2 = "5"; alert(s1 * s2); kết quả trên hộp thoại alert là:
+a. 10*5
+b. 50
+c. Lỗi
+d. Tất cả đều sai
+Câu hỏi 22: Cho đoạn mã javascript như sau: 
+var s = " Đại học Công Nghệ Sài Gòn ";
+s = s.trim(); 
+var kq = s.split(" ");
+Kết quả kq[2] của đoạn mã trên:
+a. Đại
+b. Nghệ
+c. Công
+d. Sài
+Câu hỏi 23: Kết quả của đoạn mã javascript dưới đây:
+let person1 = {name: 'An'};
+let person2 = person1;
+person2.name = 'Bình';
+console.log(person1.name);
+a. 'An'
+b. 'Bình'
+c. undefined
+d. error
+Câu hỏi 24: Kết quả của đoạn mã dưới đây là gì? 
+var array = [10, 20, 30, 40, 50]; 
+var part = array.slice(1, 4); 
+console.log(part);
+a. [10, 20, 30, 40, 50]
+b. [20, 30, 40]
+c. [30, 40, 50]
+d. [20, 30, 40, 50]
+Câu hỏi 25: Nếu hiện tại thiết lập trên máy tính là thứ Tư ngày 19/6/2024, kết quả hộp thoại alert là gì sau lệnh: 
+let d = new Date(); 
+alert(d.getDay());?
+a. 4
+b. 3
+c. Wed
+d. 19
+Câu hỏi 26: Câu lệnh nào để thay đổi nội dung thẻ div thành "abc" : 
+<div id="id1"></div>
+a. document.getElementById('id1').innerHTML="abc";
+b. document.getElementsById('id1').innerHTML="abc";
+c. document.getElementByTagName('div').innerHTML="abc";
+d. document.getElementByTagName('div').innerHTML="abc";
+Câu hỏi 27: Để xóa toàn bộ nội dung trang web, dùng lệnh Javascript nào?
+a. document.body.innerHTML="";
+b. document.getElementsByTagName('body')[0].innerHTML=";
+c. Cả hai a, b đều sai
+d. Cả hai a, b đều đúng
+Câu hỏi 28: Thay đổi thẻ div#id1 sử dụng class c2 là:
+a. document.getElementById('id1').className='c2'
+b. document.getElementById('id1')='c2'
+c. document.getElementById('#id1').className ='c2'
+d. document.getElementById('id1').class ='c2'
+Câu hỏi 29: Để đếm xem trong trang web có bao nhiêu form ta sử dụng lệnh nào?
+a. n = document.form.length;
+b. n = document.forms.length();
+c. n = document.forms.length;
+d. n = document.form.length();
+Câu hỏi 30: Câu lệnh Javascript để quay về trang trước trong history của trình duyệt
+a. <button onclick="history.back()">Go Back</button>
+b. <button onclick="history.go(-1)">Go Back 2 Pages</button>
+c. <button onclick="history.go.back()">Go Back 2 Pages</button>
+d. Cả a,b đúng
+Câu hỏi 31: jQuery là:
+a. Thư viện javascript giúp viết mã javascript nhanh gọn hơn
+b. Một đối tượng của javascript
+c. Một dạng framework
+d. Một phần mềm lập trình javascript
+Câu hỏi 32: Phương thức jquery nào lấy (trả về) nội dung văn bản của tất cả các phần tử đã chọn:
+a. html();
+b. attr();
+c. val();
+d. text()
+Câu hỏi 33: Câu lệnh nào của jQuery tương đương với lệnh javascript: document.getElementById('id1').innerHTML=10;
+a. $(“id1”).html(10);
+b. $("#id1").html(10);
+c. $("id1").innerHTML=10;
+d. $("#id1").htmlHTML=10;
+Câu hỏi 34: Trong jQuery, để ẩn các thẻ p, sử dụng lệnh:
+a. $("<p>").hide();
+b. $("p").display("none");
+c. $("p").display("hide");
+d. $("p").hide();
+Câu hỏi 35: Để xóa phần tử có class là class1 bằng jQuery là:
+a. $(".class1")[0].remove();
+b. $(#class1)[0].remove();
+c. $("class1")[1].remove();
+d. $("#class1")[1].remove();
+Câu hỏi 36: Khi xây dựng Web responsive, trang web sẽ có màu nền là gì khi truy cập bằng smart phone nếu trang có css như dưới?
+@media only screen and (max-width: 768px) { body{background-color: red;} }
+@media only screen and (max-width: 768px) { body{background-color: green;} }
+@media only screen and (min-width: 992px) { body{background-color: blue;} }
+@media only screen and (min-width: 1200px) { body{background-color: yellow;} }
+a. Red
+b. Green
+c. Blue
+d. Yellow
+Câu hỏi 37: Figma là:
+a. Công cụ lập trình web
+b. Công cụ thiết kế web
+c. Framework CSS
+d. Thư viện javascript
+Câu hỏi 38: Khi sử dụng emmet trong Visual Code để viết html, lệnh nào tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là 5 từ:
+a. table>#id1>tr*3>td*2>lorem5 
+b. table>#id1>tr*3>td*2*lorem*5 
+c. table#id1>tr*3>td*2>lorem*5 
+d. table#id1>tr*3>td*5>lorem5
+Câu hỏi 39: Lệnh để sinh ra mã html như dưới sử dụng emmet là:
+<div id="container">
+    <div id="head" class="c1"></div>
+<div id="content" class="c2"></div>
+</div>
+a. #container>#head.c1+#content.c2
+b. #container>#head.c1>#content.c2
+c. #container>(head.c1+content.c2)
+d. container>(head.c1+content.c2)
+Câu hỏi 40: AngularJS, ReactJS, và VueJS là:
+a. Các thư viện/framework phổ biến để phát ứng dụng web fullstack
+b. Các thư viện/framework phổ biến phát triển web backend
+c. Các thư viện/framework phổ biến để phát triển giao diện người dùng trong ứng dụng web.
+d. Tất cả các câu trên là đúng
+Đề 4: 
+Thuộc tính nào được sử dụng để thay đổi kích thước chữ trong CSS?
+font-size 
+b. text-size 
+c. size 
+d. text-font
+2. Selector nào được sử dụng để chọn phần tử <a> khi người dùng click (chọn) vào nó? 
+a. a:focus
+b. a:active 
+c. a:hover 
+d. a:visited
+3. Khi sử dụng float trên một phần tử, phần tử này sẽ: 
+a. Thay đổi vị trí của phần tử cha 
+b. Bị kéo ra khỏi luồng bình thường của tài liệu 
+c. Ảnh hưởng đến tất cả các phần tử anh em bên ngoài container 
+d. Không ảnh hưởng đến các phần tử khác
+4. Thuộc tính CSS nào sau đây có thể được sử dụng để thiết lập một phần tử cố định ở góc dưới cùng bên phải của cửa sổ trình duyệt? 
+a. position: relative; bottom: 0; right: 0; 
+b. position: absolute; bottom: 0; right: 0; 
+c. position: fixed; bottom: 0; right: 0; 
+d. position: static; bottom: 0; right: 0;
+5. Thuộc tính CSS nào được sử dụng để trình bày các phần tử nằm cùng nhau trên một hàng? a. display: block; 
+b. display: inline; 
+c. visibility: hidden; 
+d. display: none;
+6. Selector nào chỉ chọn phần tử p chứa class "example"? 
+a. p:example 
+b. .p.example 
+c. p.example 
+d. p^example
+7. Selector nào chọn phần tử <p> là phần tử con thứ 2 của phần tử cha tính từ cuối cùng? a. :nth-last-child(2) 
+b. p: nth-child(2) 
+c. p:nth-child(2) 
+d. p:nth-last-child(2)
+8. Selector nào chọn tất cả các phần tử <p> là anh em liền kề của một phần tử <p>? 
+a. p + p 
+b. p ~ p 
+c. p, p 
+d. p p
+9. Giá trị thuộc tính nào được đặt mặc định cho các phần tử html và không bị ảnh hưởng bởi các thuộc tính top, bottom, left và right. 
+a. position: static; 
+b. position: relative; 
+c. position: fixed; 
+d. position: absolute;
+10. Phần nội dung footer thường sử dụng thuộc tính nào để ngăn chặn các phần tử khác ảnh hưởng đến nó? 
+a. float: auto; 
+b. clear: auto; 
+c. overflow: hidden; 
+d. clear: both;
+11. Trong CSS, thuộc tính "min-width" được sử dụng để làm gì trong Responsive Web Design? 
+a. Xác định chiều rộng tối đa cho một phần tử 
+b. Xác định chiều cao tối đa cho một phần tử 
+c. Xác định chiều rộng tối thiểu cho một phần tử 
+d. Xác định chiều cao tối thiểu cho một phần tử
+12. Media query nào dưới đây áp dụng các quy tắc CSS chỉ khi thiết bị là máy in? 
+a. @media print {...} 
+b. @media printer {...} 
+c. @media screen and (device: print) {...} 
+d. @media screen and (type: print) {...}
+13. Media query nào dưới đây áp dụng các quy tắc CSS chỉ khi chiều cao của cửa sổ trình duyệt ít nhất là 400px và chiều rộng ít nhất là 600px? 
+a. @media screen and (min-height: 400px) and (max-width: 600px) {...} 
+b. @media screen and (height: 400px) and (width: 600px) {...} 
+c. @media screen and (min-height: 400px) and (min-width: 600px) {...} 
+d. @media screen and (height: 400px) and (max-width: 600px) {...}
+14. Thuộc tính CSS nào được sử dụng để xác định tỷ lệ mà một phần tử con sẽ co lại trong container Flexbox? 
+a. flex-grow 
+b. flex-basis 
+c. flex-shrink 
+d. flex
+15. Thuộc tính flex-basis được sử dụng để xác định điều gì về phần tử con trong container Flexbox? 
+a. Tỷ lệ mở rộng 
+b. Tỷ lệ co lại 
+c. Chỉ định độ dài ban đầu 
+d. Chỉ định độ cao ban đầu
+16. Trong JavaScript, từ khóa nào được sử dụng để khai báo một biến không thể thay đổi giá trị sau khi đã được gán giá trị? 
+a. let 
+b. var 
+c. const 
+d. undefined
+17. Kết quả của biểu thức 4 + "4" trong JavaScript là gì? 
+a. "44" 
+b. 8 
+c. NaN 
+d. undefined
+18. Kết quả biến s là gì? 
+var s = parseInt("1.7A") + parseFloat("2.5A"); 
+a. 3.2 
+b. 3.5 
+c. "1725" 
+d. 2.7
+19. Đoạn mã nào có nhiệm vụ tạo đối tượng trong javascript? 
+a. conto dog = {}; 
+b. conto dog = new Object(); 
+c. conto dog = Object.create({}); 
+d. Tất cả đều đúng
+20. Trong javascript, biểu thức x = y có nghĩa là: 
+a. Gán giá trị y cho x. 
+b. Cả hai chỉ bằng nhau về giá trị. 
+c. Cả hai đều bằng nhau về giá trị và kiểu dữ liệu. 
+d. Cả hai bằng nhau về địa chỉ tham chiếu.
+21. Lệnh: a! = "10"; s2 = 5; alert(a! + s2); Kết quả trên hộp thoại Alert là 
+a. 15 
+b. "10"5 
+c. 105 
+d. "55"
+22. Cho đoạn mã javascript như sau:
+   var kq = "Đại học Công Nghệ Sài Gòn";
+   var kq_ = kq.split(" ");
+Kết quả kq[4] của đoạn mã trên: 
+a. Đại 
+b. Nghệ 
+c. Gòn 
+d. Sài
+23. Kết quả của đoạn mã dưới đây là gì?
+   var array = [10, 20, 30, 40, 50];
+   var newArray = array.slice(1, 4);
+   console.log(newArray);
+[20, 30, 40] 
+[50, 40, 50] 
+[20, 30, 40, 50] 
+d. [10, 20, 30, 40]
+24. Kết quả của đoạn mã javascript dưới đây:
+  let person = {
+      name: "An",
+age:30
+  };
+Object.keys(person).forEach(key => {
+     console.log(key);
+});
+a. age 
+b. Name
+c. An 30
+d. 'name age'
+25. Ngày hiện tại thiết lập trên máy tính là thứ Sáu ngày 21/6/2024, kết quả hộp thoại là gì sau lệnh: new Date().getDay(); 
+a. 21
+b. Fri 
+c. 0 
+d. 5
+26. Để đếm xem trong trang web có bao nhiêu form ta sử dụng lệnh nào? 
+a. n = document.form.length; 
+b. n = document.form.length(); 
+c. n = document.forms.length; 
+d. n = document.forms.length();
+27. Câu lệnh nào để nhập nội dung thẻ div thành = "abc": <div id="id1"></div> 
+a. document.getElementById('id1').innerHTML = "abc"; 
+b. document.getElementsByTagName('div').innerHTML = "abc"; 
+c. document.getElementsByTagName('div').innerHTML = "abc"; 
+d. document.getElementById('id1').innerText = "abc";
+28. Để xóa toàn bộ nội dung trang web, dùng lệnh javascript nào? 
+a. document.body.innerHTML = ""; 
+b. document.getElementsByTagName('body')[0].innerHTML = ""; 
+c. Cả hai a, b đều sai 
+d. Cả hai a, b đều đúng
+29. Để chuyển trang web tới https://www.google.com/search?q=google.com.vn, sử dụng lệnh 
+a. URL.location = "https://www.google.com.vn/" 
+b. window.URL.location="https://www.google.com/" 
+c. window.location="https://www.google.com.vn/" 
+d. window.location="https://www.google.com."
+30. Để thay đổi màu chữ của phần tử có name n thành 'red' là: 
+a. document.getElementsByName('n').color = 'red'; 
+b. document.getElementsByName('n').add.color = 'red'; 
+c. document.getElementsByName('n').style.color = 'red'; 
+d. document.getElementsByName('n').css.color = 'red';
+31. jQuery là: 
+a. Một đối tượng của javascript 
+b. Thư viện javascript giúp viết mã javascript nhanh gọn hơn 
+c. Một phần mềm lập trình javascript 
+d. Một dạng framework
+32. Trong jQuery, để ẩn các thẻ p, sử dụng lệnh: 
+a. $('p').display("hide") 
+b. $('p').display("none") 
+c. $('p').hide() 
+d. $('p').hide();
+33. Phương thức jquery nào lấy (trả về) nội dung văn bản của tất cả các phần tử đã chọn: a. html()
+b. val();
+c. text()
+d. attr();
+34. Để xóa phần tử thứ 2 có class là class1 bằng jQuery là: 
+a. $('class1')[0].remove(); 
+b. $('class1')[1].remove(); 
+c. $('class1').remove(); 
+d. $('class1')[1].remove();
+35. Câu lệnh nào của jQuery tương đương với lệnh javascript: document.getElementById("id1").textContent = 10; 
+a. $("#id1").text(10); 
+b. $("#id1").text(10); 
+c. $("#id1").textContent = 10; 
+d. $("#id1").textContent = 10;
+36. AngularJS, ReactJS, và VueJS là: 
+a. Các thư viện/framework phổ biến để phát triển giao diện người dùng trong ứng dụng web. 
+b. Các thư viện/framework phổ biến phát triển web backend 
+c. Các thư viện/framework phổ biến để phát triển ứng dụng web fullstack 
+d. Tất cả các câu trên là đúng
+37. Figma là: 
+a. Công cụ lập trình web 
+b. Framework CSS 
+c. Công cụ thiết kế web 
+d. Thư viện javascript
+38. Lệnh để sinh ra mã html như dưới:
+   <div id="container">
+       <head>
+           <title>Content</title>
+       </head>
+       <body>
+           <div class="content"></div>
+       </body>
+   </div>
+#container>#head.c1>#content.c2 
+#container>head.c1+content.c2 
+#container>(head.c1+content.c2)
+d. container>(head.c1+content.c2)
+39. Khi xây dựng Web responsive, trang web sẽ có màu nền là gì khi truy cập bằng smart phone nếu trang có css như dưới?
+   @media only screen and (max-width: 600px) {
+       body {background-color: yellow;}
+   }
+   @media only screen and (min-width: 601px) {
+       body {background-color: green;}
+   }
+   @media only screen and (min-width: 992px) {
+       body {background-color: blue;}
+   }
+   @media only screen and (min-width: 1200px) {
+       body {background-color: red;}
+   }
+Red 
+Green 
+Blue 
+d. Yellow
+40. Khi sử dụng emmet trong Visual Code để thiết kế html, lệnh nào tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là từ 5 từ. 
+a. table#id1>tr*3>td*2>lorem*5 
+b. table#id1>tr*3>td*2>lorem*5 
+c. table#id1>tr*3>td*2>lorem5 
+d. table#id1>tr*3>td*2>lorem5
+
+
+
+
+

@@ -97,7 +97,7 @@ function Get-QuestionsFromMarkdown($filePath) {
         
         $qTextLines = @()
         $options = @{}
-        $answer = ""
+        $answers = @()
         
         foreach ($line in $lines) {
             $trimmedLine = $line.Trim()
@@ -124,7 +124,7 @@ function Get-QuestionsFromMarkdown($filePath) {
                 
                 $options[$letter] = $optText
                 if ($isCorrect) {
-                    $answer = $letter
+                    $answers += $letter
                 }
             } else {
                 # If we haven't seen options yet, it's question text
@@ -146,10 +146,11 @@ function Get-QuestionsFromMarkdown($filePath) {
         $qText = $qText.Trim()
         
         if ($qText -ne "" -and $options.Count -gt 0) {
+            $finalAnswer = if ($answers.Count -eq 1) { $answers[0] } else { $answers }
             $fileQuestions += [PSCustomObject]@{
                 q = $qText
                 options = $options
-                answer = $answer
+                answer = $finalAnswer
                 explanation = ""
             }
         }
@@ -200,13 +201,25 @@ foreach ($q in $allQuestions) {
     $explanation = Get-Explanation $q.q
     $explanationEscaped = Escape-ForJsJson $explanation
     
+    # Format answer as string or JS array
+    $ansStr = ""
+    if ($q.answer -is [array]) {
+        $ansItems = @()
+        foreach ($ans in $q.answer) {
+            $ansItems += """$ans"""
+        }
+        $ansStr = "[" + ($ansItems -join ", ") + "]"
+    } else {
+        $ansStr = """$($q.answer)"""
+    }
+    
     $jsItem = @"
   {
     q: "$qTextEscaped",
     options: {
 $optsStr
     },
-    answer: "$($q.answer)",
+    answer: $ansStr,
     explanation: "$explanationEscaped"
   }
 "@

@@ -1,0 +1,166 @@
+viết tắt của từ nào|HTML viết tắt của Hyper Text Markup Language (Ngôn ngữ đánh dấu siêu văn bản), được dùng để cấu trúc trang web.
+in nghiêng|Trong HTML, cả thẻ `<em>` (emphasized) và `<i>` (italic) đều định dạng chữ in nghiêng.
+xuống dòng|Thẻ `<br>` (line break) được sử dụng để ngắt dòng trực tiếp trong văn bản HTML.
+liên kết \(links\)|Thẻ `<a>` (anchor) với thuộc tính `href` dùng để tạo liên kết đến các trang web hoặc tài nguyên khác.
+kích lớn nhất|Trong HTML có các cấp tiêu đề từ `<h1>` đến `<h6>`, trong đó `<h1>` là tiêu đề lớn nhất.
+x<sub><u>2</u></sub>|Thẻ `<sub>` (subscript) định nghĩa chỉ số dưới, kết hợp thẻ `<u>` (underline) để gạch chân chữ số 2, tạo ra chữ X₂ gạch chân.
+x<sup>2</sup>|Thẻ `<sup>` (superscript) định nghĩa chỉ số trên, dùng để viết số mũ hoặc lũy thừa (như X²).
+bookmark|Có hai cách tạo liên kết trong trang (bookmark): dùng thẻ `<a>` có thuộc tính `name` hoặc gán thuộc tính `id` cho bất kỳ thẻ nào.
+cửa sổ mới|Sử dụng thuộc tính `target="_blank"` để yêu cầu trình duyệt mở liên kết trong một thẻ mới hoặc cửa sổ mới.
+style type="text/css"|Định nghĩa CSS viết trong thẻ `<style>` đặt ở phần đầu trang HTML được gọi là CSS nội bộ (Internal CSS).
+span.sentence./span|Thẻ `<span>` là phần tử nội dòng (inline) mặc định, không tự tạo dòng mới hay làm thay đổi hiển thị chữ, nên chữ xuất ra bình thường.
+br ./sentence|Thẻ `<br />` ngắt dòng, khiến chữ 'sentence' bị đẩy xuống dòng tiếp theo.
+canh đều 2 bên|Thuộc tính `align="justify"` của thẻ `<p>` dùng để căn đều văn bản ở cả hai biên trái và phải.
+pre. 1.*-.*10 ./pre|Thẻ `<pre>` (preformatted text) giữ nguyên mọi khoảng trắng, tab và dấu ngắt dòng đúng như khi viết trong mã nguồn.
+ab<c>d|Trình duyệt không nhận biết thẻ `<c>` nhưng vẫn bỏ qua nó và hiển thị nội dung văn bản bên trong là 'abd'.
+drop-down list|Thẻ `<select>` kết hợp với các thẻ `<option>` bên trong tạo ra danh sách lựa chọn dạng thả (drop-down list).
+đứng đầu bằng số|Thẻ `<ol>` (Ordered List) tạo ra danh sách có thứ tự (đầu dòng được đánh số hoặc chữ cái tự động).
+dấu chấm|Thẻ `<ul>` (Unordered List) tạo ra danh sách không thứ tự (mặc định hiển thị dấu chấm tròn đen đầu dòng).
+dl>.*dl.*danh sách|Thẻ `<dl>` (Description List) dùng để tạo danh sách mô tả định nghĩa các thuật ngữ.
+thẻ <dl>|Thẻ `<dl>` (Description/Definition List) dùng để tạo danh sách mô tả định nghĩa các thuật ngữ.
+hình ảnh khác làm biểu tượng|Trong CSS, thuộc tính `list-style-image` được dùng để gán hình ảnh tùy chọn làm biểu tượng đầu dòng thay cho dấu chấm mặc định.
+bỏ biểu tượng đánh dấu.*ul|Thiết lập thuộc tính `list-style-type: none` trong CSS để ẩn biểu tượng chấm tròn đầu dòng của danh sách `<ul>`.
+không cho hình nền lập lại|Thuộc tính `background-repeat: no-repeat` ngăn không cho ảnh nền lặp lại (lát gạch) trên trang web.
+hình nền nằm giữa|Thuộc tính `background-position: center` định vị ảnh nền nằm chính giữa phần tử chứa.
+thẻ <th> nội dung|Thẻ `<th>` (table header) tự động in đậm chữ và căn giữa nội dung ô theo mặc định.
+cellspacing là|Thuộc tính `cellspacing` định nghĩa khoảng cách trống giữa các ô (giữa các viền ô) trong bảng.
+cellpadding là|Thuộc tính `cellpadding` định nghĩa khoảng cách từ đường viền ô đến nội dung bên trong ô đó.
+màu nền trong <table>|Trong HTML truyền thống, thuộc tính `bgcolor` được sử dụng để thiết lập màu nền cho thẻ `<table>`.
+chiều dọc trong <table>|Thuộc tính `valign` (vertical align) quy định căn chỉnh nội dung ô theo chiều dọc (top, middle, bottom).
+chiều ngang dùng thuộc tính|Thuộc tính `colspan` (column span) dùng để gộp các ô theo chiều ngang (cột) trong bảng.
+chiều dọc dùng thuộc tính|Thuộc tính `rowspan` (row span) dùng để gộp các ô theo chiều dọc (dòng) trong bảng.
+gợi ý "Nhập số"|Thuộc tính `placeholder` tạo văn bản gợi ý mờ hiển thị trong ô nhập liệu khi ô đó chưa có nội dung.
+giới hạn số ký tự nhập vào|Thuộc tính `maxlength` (viết trong quiz là `maxlenght`) giới hạn số lượng ký tự tối đa người dùng có thể nhập vào textfield.
+không cho người dùng thay đổi giá trị.*gửi dữ liệu|Thuộc tính `readonly` ngăn thay đổi giá trị nhập nhưng vẫn gửi dữ liệu khi submit form (khác với `disabled` sẽ không gửi dữ liệu).
+lưu giữ giá trị.*người dùng không thể thấy|Thẻ `<input type="hidden">` tạo ô nhập ẩn, lưu trữ thông tin nội bộ gửi lên server mà không hiển thị trên giao diện người dùng.
+times new roman|Sử dụng thuộc tính `font-family` để khai báo danh sách font chữ hiển thị cho phần tử.
+định dạng màu chữ|Thuộc tính `color` trong CSS dùng để thay đổi màu sắc hiển thị của chữ (văn bản).
+định dạng chữ nghiêng|Thuộc tính `font-style: italic` dùng để thiết lập văn bản hiển thị dưới dạng chữ nghiêng.
+làm mờ đối tượng|Thuộc tính `opacity` có giá trị từ 0 (trong suốt hoàn toàn) đến 1 (hiển thị rõ nét) được dùng để làm mờ đối tượng.
+thay đổi kích cỡ chữ|Thuộc tính `font-size` quy định kích thước chữ hiển thị trong CSS.
+định dạng liên kết đúng|Thứ tự áp dụng pseudo-class cho liên kết chuẩn trong CSS là: `:link`, `:visited`, `:hover`, `:active` (LoVe/HAte).
+không có gạch chân|Sử dụng `text-decoration: none` để loại bỏ đường gạch chân mặc định dưới liên kết `<a>`.
+table nét đơn|Thiết lập `border-collapse: collapse` để gộp các đường viền đôi của bảng thành một đường viền nét đơn duy nhất.
+một hàng riêng biệt|Giá trị `display: block` làm cho phần tử hiển thị dưới dạng khối, tự động xuống dòng và chiếm trọn chiều rộng hàng chứa.
+bo góc một đối tượng|Thuộc tính `border-radius` được sử dụng để bo tròn các góc của phần tử trong CSS.
+thứ tự định dạng các góc|Khi khai báo 4 giá trị cho thuộc tính viền/bo góc, thứ tự áp dụng là: Top-Left, Top-Right, Bottom-Right, Bottom-Left (theo chiều kim đồng hồ).
+padding-left là bao nhiêu|Thứ tự của padding 4 giá trị là: Top, Right, Bottom, Left. Do đó, padding-left (giá trị thứ tư) là 30px.
+padding-left và padding-right|Khi khai báo 3 giá trị padding (Top, Left/Right, Bottom), padding-left và padding-right sẽ dùng chung giá trị thứ hai là 40px.
+child selector giữa div|Cú pháp `div > p` chọn tất cả các thẻ `<p>` là con trực tiếp (child) của thẻ `div`.
+ôn trắc nghiệm thế này|Đây là câu hỏi khảo sát ý kiến cá nhân trên website gốc.
+tốc độ chuyển động của thẻ <marquee>|Thuộc tính `scrollamount` quy định số pixel di chuyển sau mỗi khoảng thời gian, quyết định tốc độ của thẻ `<marquee>`.
+chiều rộng là 100px|Sử dụng thuộc tính CSS nội tuyến `style="width:100px"` để thiết lập độ rộng chính xác cho phần tử.
+emmet.*f1.*input1|Cú pháp Emmet `form[name=f1][action=""]>input[type=text][name="input$"]*2` tạo form chứa 2 ô input có name tăng dần.
+nth-child\(2n\+1\)|Selector `li:nth-child(2n+1)` chọn các phần tử li ở vị trí lẻ (1, 3, ...), do đó Text1 và Text3 sẽ có màu đỏ.
+span, div.c2|Thẻ `<span>Text3</span>` khớp với selector `span` nên Text3 sẽ có màu đỏ.
+input:focus|Selector `:focus` kích hoạt khi phần tử (như ô input) được nhấp chọn hoặc nhận tiêu điểm.
+upload file bằng form|Để upload file, form phải sử dụng thuộc tính `enctype="multipart/form-data"` và gửi bằng phương thức `method="post"`.
+2 khoảng trắng giữa text1|Ký tự thực thể `&nbsp;` (non-breaking space) được dùng để chèn khoảng trắng cứng trong HTML mà không bị trình duyệt tự động gộp lại.
+nằm trong thư mục cha|Đường dẫn `../` đại diện cho thư mục cấp cha chứa thư mục hiện tại.
+zalo với số điện thoại|Sử dụng liên kết dạng URL `http://zalo.me/sodt` để dẫn trực tiếp tới cửa sổ chat Zalo.
+video v1.mp4|Thẻ `<video>` chuẩn HTML5 sử dụng thẻ `<source>` bên trong để định nghĩa nguồn video và định dạng type.
+hình nền cho bảng.*html hiện đại|Trong thiết kế web hiện đại, ta dùng CSS thuộc tính `background` hoặc `background-image` cho bảng thay vì các thuộc tính HTML cũ.
+nhập liệu nhiều dòng|Thẻ `<textarea>` dùng để tạo hộp nhập liệu văn bản nhiều dòng trong form HTML.
+chọn sẵn một option trong thẻ <select>|Thuộc tính `selected` gán cho thẻ `<option>` để làm cho tùy chọn đó được chọn mặc định khi load trang.
+radio chỉ chọn được một|Các nút radio phải có chung thuộc tính `name` để trình duyệt gom nhóm chúng lại và chỉ cho phép chọn một tại một thời điểm.
+màu #ffffff là màu gì|Mã màu Hex `#ffffff` biểu diễn độ sáng tối đa cho cả R, G, B, tương ứng với màu Trắng (White).
+chú thích đúng trong css|Trong CSS, chú thích phải nằm trong cặp ký tự `/* nội dung chú thích */`.
+ảnh nền đứng yên hay di chuyển|Thuộc tính `background-attachment: fixed` giữ ảnh nền cố định khi cuộn trang, còn `scroll` sẽ cuộn theo nội dung.
+chữ in hoa|Sử dụng thuộc tính CSS `text-transform: uppercase` để chuyển toàn bộ ký tự sang dạng in hoa.
+liên kết file css ngoài|Sử dụng thẻ `<link rel="stylesheet" href="style.css">` trong phần `<head>` để nhúng file CSS ngoại vi.
+css nội bộ|CSS nội bộ được viết trực tiếp trong trang HTML bằng thẻ `<style>`.
+inline css là|Thuộc tính `style` được dùng trực tiếp trên thẻ HTML để áp dụng CSS nội tuyến.
+cú pháp css đúng là|Cú pháp CSS chuẩn có dạng: `selector { property: value; }`.
+inline mặc định|Thẻ `<span>` là phần tử nội dòng (inline) mặc định, không tự xuống dòng và chỉ chiếm không gian vừa đủ chứa nội dung.
+block mặc định|Các thẻ tiêu đề (`<h1>`) và đoạn văn (`<p>`, `<div>`) mặc định hiển thị dưới dạng khối (block), tự động xuống dòng và chiếm hết chiều rộng dòng chứa.
+màu green|Mã màu Hex `#00ff00` có giá trị Green là lớn nhất (ff) và Red, Blue bằng 00, đại diện cho màu xanh lá (green).
+trỏ tới external style sheet|Sử dụng thẻ `<link rel="stylesheet" href="style.css">` trong phần `<head>` để nhúng file CSS ngoại vi.
+liên kết với file css ở vùng nào|Dòng liên kết với file CSS ngoại vi thường được đặt trong thẻ `<head>` của tài liệu HTML.
+thẻ <input type="text" > để giới hạn|Thuộc tính `maxlength` (viết trong quiz là `maxlenght`) giới hạn số lượng ký tự tối đa người dùng có thể nhập vào textfield.
+khởi tạo internal style sheet|Thẻ `<style>` được dùng để viết CSS nội bộ ngay trong tài liệu HTML.
+ngăn không cho 1 đối tượng bị ảnh hưởng bởi.*float|Thuộc tính `clear: both/left/right` dùng để xóa thuộc tính float, ngăn phần tử tiếp theo bị trôi quanh phần tử float trước đó.
+cùng thuộc tính và có thể được sử dụng nhiều lần|Thuộc tính `class` dùng để nhóm các phần tử có chung định dạng và có thể dùng nhiều lần trên trang (khác với `id` là duy nhất).
+ẩn nhưng vẫn chiếm vùng không gian|Sử dụng `visibility: hidden` để ẩn phần tử nhưng nó vẫn chiếm giữ không gian trên layout (khác với `display: none` làm mất hẳn không gian).
+thẻ <p> thành bold|Thuộc tính `font-weight: bold` được dùng để thiết lập văn bản in đậm cho phần tử.
+chữ viết hoa|Thuộc tính `text-transform: capitalize` viết hoa chữ cái đầu tiên của mỗi từ (lựa chọn trong quiz ghi sai chính tả là `capitaliza`).
+hiển thị nội dung text dưới dạng bold|Thuộc tính CSS chuẩn để viết chữ đậm là `font-weight: bold`.
+hiển thị tất cả các thành phần trong ô vuông|Sử dụng thuộc tính `list-style-type: square` để chuyển biểu tượng đầu dòng của danh sách sang hình ô vuông.
+thứ tự định dạng liên kết trong css|Thứ tự áp dụng pseudo-class cho liên kết chuẩn trong CSS là: `:link`, `:visited`, `:hover`, `:active` (LoVe/HAte).
+div, a{color:yellow}|Selector `div, a` áp dụng thuộc tính màu vàng cho cả thẻ `div` và tất cả các thẻ `a`, do đó tất cả các nội dung hiển thị sẽ có màu vàng.
+input\[id\^=|Selector `input[id^='abc']` chọn các thẻ input có thuộc tính id bắt đầu bằng chuỗi 'abc' (ký tự `^` nghĩa là bắt đầu).
+input\[id\$=|Selector `input[id$='abc']` chọn các thẻ input có thuộc tính id kết thúc bằng chuỗi 'abc' (ký tự `$` nghĩa là kết thúc).
+xóa nội dung của thẻ div|Gán thuộc tính `innerHTML` của phần tử bằng chuỗi rỗng `''` để xóa sạch toàn bộ nội dung HTML bên trong phần tử đó.
+textbox có name=n|Để lấy giá trị của textbox từ form theo name trong Javascript thuần, ta truy cập qua `document.getElementsByName('n')[0].value` hoặc `document.formName.inputName.value`.
+màu chữ trong thẻ div có id=id1|Sử dụng `.style.color` để truy cập và thay đổi thuộc tính màu chữ của phần tử thông qua Javascript.
+ngăn ngừa code chạy trước khi trang web load xong|Phương thức `$(document).ready()` trong jQuery đảm bảo rằng mã Javascript chỉ chạy sau khi toàn bộ cấu trúc DOM của trang đã được tải xong.
+ẩn phần tử được chọn trong jquery|Phương thức `.hide()` trong jQuery được sử dụng để ẩn phần tử được chọn (tương đương với thiết lập `display: none` trong CSS).
+thẻ div nào.*chiều rộng là 100px|Thiết lập CSS nội tuyến `style="width:100px"` để gán độ rộng cho thẻ div (các thuộc tính HTML cũ như `width` không hợp lệ cho `div`).
+thẻ option để xác định phần tử đó được chọn|Trong HTML, thuộc tính dùng để chọn sẵn một thẻ `<option>` là `selected`. Vì các phương án `checked` (dành cho checkbox/radio) hay `default` đều sai, nên chọn 'Tất cả đều sai'.
+giá trị khởi tạo cho textfield|Thuộc tính `value` của thẻ `<input>` xác định giá trị mặc định được điền sẵn trong ô nhập liệu khi load trang.
+trong css để làm mờ đối tượng|Thuộc tính `opacity` dùng để đặt độ mờ/trong suốt cho phần tử, giá trị từ 0 (trong suốt) đến 1 (hiển thị đầy đủ).
+z-index dùng để|Thuộc tính `z-index` xác định thứ tự xếp chồng lên nhau của các phần tử đã được định vị (position), quyết định phần tử nào nằm trên hay dưới lớp khác.
+thiết lập ảnh nền cố định|Thuộc tính `background-attachment: fixed` dùng để cố định ảnh nền tại chỗ, không bị di chuyển khi cuộn trang.
+div .b .a.color:blue|Mã CSS `div b a` là bộ chọn con cháu (descendant selector), chọn thẻ `a` nằm trong thẻ `b` và thẻ `b` này phải nằm trong `div`. Do đó nội dung C có màu xanh.
+div  b  a.color:blue|Mã CSS `div b a` là bộ chọn con cháu (descendant selector), chọn thẻ `a` nằm trong thẻ `b` và thẻ `b` này phải nằm trong `div`. Do đó nội dung C có màu xanh.
+input\[id\*=|Selector `input[id*='abc']` chọn các thẻ input có thuộc tính id chứa chuỗi 'abc' tại bất kỳ vị trí nào (ký tự `*` nghĩa là chứa).
+tương đương với thuộc tính innerhtml|Phương thức `.html()` trong jQuery tương đương với thuộc tính `.innerHTML` trong Javascript thuần, dùng để lấy hoặc gán nội dung HTML.
+tương đương câu lệnh javascript: .document.getelementbyid|Trong jQuery, bộ chọn ID `$("#ID")` tương đương với lệnh `document.getElementById("ID")` trong Javascript thuần.
+giá trị thuộc tính đúng mã css|Cú pháp viết tắt viền chuẩn trong CSS là: `border: width style color;` (ví dụ: `border: 1px solid #333;`).
+padding: 20px 40px 30px thì padding-top và padding-bottom|Khai báo 3 giá trị padding (Top, Left/Right, Bottom). Do đó padding-top là 20px và padding-bottom là 30px.
+div > a.color:red.*màu đỏ|Selector con trực tiếp `div > a` chọn các thẻ `a` là con trực tiếp của `div` (không nằm trong thẻ con khác của `div`). Do đó chỉ có A được chọn.
+đối tượng ẩn nhưng vẫn chiếm vùng không gian|Thuộc tính `visibility: hidden` ẩn phần tử nhưng vẫn giữ nguyên kích thước và vị trí của nó trên layout, không làm dịch chuyển các phần tử khác.
+div > a.color:green.*màu xanh|Selector `div > a` chọn các thẻ `a` là con trực tiếp của `div`. Trong đoạn HTML, thẻ A và thẻ C đều là con trực tiếp của div (thẻ B nằm trong `<b>` nên không thỏa mãn).
+chèn 1 file css.*cú pháp nào đúng|Cú pháp nhúng file CSS chuẩn là `<link rel="stylesheet" href="style.css">`. Vì không có phương án nào viết đúng thẻ và thuộc tính này, đáp án là 'Chả cái nào đúng hết đâu!'.
+padding: 20px 50px thì padding-right|Khi khai báo padding 2 giá trị (Top/Bottom, Left/Right), padding-right sẽ dùng giá trị thứ hai là 50px.
+ngôn ngữ dịch mã nguồn|JavaScript là ngôn ngữ thông dịch (interpreted language), trình duyệt sẽ dịch và thực thi trực tiếp từng dòng mã nguồn lúc chạy.
+hàm alert|Hàm `alert(...)` trong JavaScript dùng để hiển thị hộp thoại thông báo đơn giản với nội dung chỉ định và nút OK.
+hàm prompt|Hàm `prompt(...)` hiển thị hộp thoại thông báo có ô nhập liệu để yêu cầu người dùng nhập thông tin.
+2\+6\+'3'|Phép cộng `2+6` thực hiện trước ra `8`. Sau đó `8 + '3'` (cộng số với chuỗi) sẽ chuyển số 8 thành chuỗi và thực hiện nối chuỗi, kết quả là `'83'`.
+x===y|Toán tử so sánh tuyệt đối `===` kiểm tra xem hai giá trị có bằng nhau cả về giá trị lẫn kiểu dữ liệu hay không.
+sự kiện onblur|Sự kiện `onblur` xảy ra khi phần tử (như ô input) bị mất tiêu điểm (mất focus) khi người dùng click ra ngoài.
+chọn tất cả.*class=.selector.|Hàm `querySelectorAll(".selector")` chọn tất cả các phần tử có class tương ứng và trả về một NodeList.
+khai báo mảng nào.*đúng|Khai báo mảng chuẩn trong JavaScript sử dụng dấu ngoặc vuông: `var colors = ["red", "green", "blue"]`.
+lấy giá trị phần tử trong form có id=n|Để lấy giá trị của phần tử có ID trong JavaScript thuần, ta dùng `document.getElementById('n').value`.
+arr = \['aa','bb','cc','dd'\]|Hàm `splice(index, count)` dùng để xóa phần tử. Ở đây `splice(1, 2)` bắt đầu từ vị trí 1 ('bb') và xóa đi 2 phần tử ('bb' và 'cc').
+ẩn phần tử có id=txt|Để ẩn phần tử bằng JavaScript thuần, ta gán thuộc tính `.style.display = 'none'`.
+đổi kích thước chữ.*txt thành 60px|Để đổi kích thước chữ bằng JavaScript thuần, ta gán thuộc tính `.style.fontSize = '60px'` (chú ý chữ S viết hoa trong lạc đà camelCase).
+xóa phần tử thứ 1 có class là class1|Trong jQuery, selector `$(".class1")` trả về một mảng DOM. Ta chọn phần tử đầu tiên bằng chỉ số `[0]` và dùng hàm `.remove()` trong JS thuần.
+xóa phần tử thứ 2 có class là class1|Trong jQuery, selector `$(".class1")` trả về danh sách phần tử. Phần tử thứ hai nằm ở chỉ số `[1]`, ta dùng `.remove()` để xóa nó.
+tìm phần tử đầu tiên <p> và thay đổi|Lệnh `document.getElementsByTagName('p')[0]` chọn thẻ `<p>` đầu tiên, sau đó gán thuộc tính `.innerHTML = 'Hello'` để thay đổi nội dung.
+tìm phần tử thứ 2 <p> và thay đổi|Lệnh `document.getElementsByTagName('p')[1]` chọn thẻ `<p>` thứ hai, sau đó gán thuộc tính `.innerHTML = 'Hello'` để thay đổi nội dung.
+đổi màu chữ.*name=n|Lệnh `document.getElementsByName('n')[0]` chọn phần tử đầu tiên có thuộc tính name='n', gán `.style.color = 'red'` để đổi màu chữ.
+nút. Button thứ 1|Lệnh `document.getElementsByTagName("BUTTON")[0]` chọn nút button thứ nhất, `.attributes[0].name` lấy tên của thuộc tính đầu tiên.
+nút. Button thứ 2|Lệnh `document.getElementsByTagName("BUTTON")[1]` chọn nút button thứ hai, `.attributes[0].name` lấy tên của thuộc tính đầu tiên.
+truy cập bằng smart phone nếu trang có css như dưới|Quy tắc viết sau sẽ ghi đè quy tắc viết trước. Với thiết bị di động (chiều rộng nhỏ hơn 768px), cả hai media query max-width: 768px đều thỏa mãn, do đó màu nền sẽ là green do được khai báo sau.
+figma là|Figma là một công cụ thiết kế giao diện người dùng (UI/UX) chạy trên nền tảng web rất phổ biến.
+tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là 5 từ|Trong Emmet, table#id1 tạo bảng có id='id1', tr*3 nhân bản 3 dòng, td*2 tạo 2 cột, và lorem*5 (hoặc lorem5) tạo đoạn văn bản giả gồm 5 từ.
+lệnh để sinh ra mã html như dưới sử dụng emmet là.*container.*head.*content|Cúp pháp Emmet #container>#head.c1+#content.c2 tạo phần tử cha #container chứa hai phần tử con đồng cấp (kết nối bằng dấu +) là #head.c1 và #content.c2.
+angularjs, reactjs, và vuejs là|AngularJS, ReactJS và VueJS đều là các thư viện hoặc framework Javascript chạy ở phía client (frontend) dùng để xây dựng giao diện người dùng (UI).
+thay đổi kích thước chữ trong css|Trong CSS, thuộc tính font-size được dùng để điều chỉnh kích thước hiển thị của font chữ.
+chọn phần tử <a> khi người dùng click (chọn) vào nó|Pseudo-class :active kích hoạt khi phần tử (như thẻ <a>) đang được người dùng nhấn giữ chuột (click hoạt động).
+khi sử dụng float trên một phần tử, phần tử này sẽ|Khi một phần tử được float (trôi), nó sẽ bị đưa ra khỏi luồng bố cục bình thường (normal document flow) và các phần tử inline khác sẽ bao quanh nó.
+trình bày các phần tử nằm cùng nhau trên một hàng|Thiết lập display: inline giúp phần tử hiển thị dưới dạng nội dòng, xếp cùng nhau trên một hàng thay vì tự động xuống dòng như block.
+selector nào chỉ chọn phần tử p chứa class "example"|Cú pháp selector p.example chọn thẻ <p> có thuộc tính class chứa lớp 'example'.
+selector nào chọn phần tử <p> là phần tử con thứ 2 của phần tử cha tính từ cuối cùng|Pseudo-class :nth-last-child(n) chọn phần tử là con thứ n tính từ cuối danh sách con của phần tử cha lên.
+selector nào chọn tất cả các phần tử <p> là anh em liền kề của một phần tử <p>|Bộ chọn anh em liền kề + (adjacent sibling selector) chọn phần tử ngay sau phần tử thứ nhất nếu chúng có cùng cha trực tiếp.
+đặt mặc định cho các phần tử html và không bị ảnh hưởng bởi các thuộc tính top, bottom, left và right|Mặc định các phần tử HTML có thuộc tính position: static, xếp theo luồng văn bản thông thường và không chịu ảnh hưởng của các thuộc tính căn chỉnh vị trí.
+phần nội dung footer thường sử dụng thuộc tính nào để ngăn chặn các phần tử khác ảnh hưởng|Thuộc tính clear: both triệt tiêu tác động float từ cả hai phía, giúp footer hiển thị bình thường ở bên dưới các phần tử float trước đó.
+trong css, thuộc tính "min-width" được sử dụng để làm gì|Thuộc tính min-width quy định chiều rộng tối thiểu mà một phần tử có thể thu nhỏ lại trên các màn hình có kích thước nhỏ.
+áp dụng các quy tắc css chỉ khi thiết bị là máy in|Từ khóa print trong truy vấn @media áp dụng định dạng CSS chuyên dụng khi trang được xem trước hoặc gửi đi in ấn.
+tỷ lệ mà một phần tử con sẽ co lại trong container flexbox|Thuộc tính flex-shrink xác định hệ số co lại (shrink factor) của các item con trong Flexbox khi container không đủ không gian chứa.
+thuộc tính flex-basis được sử dụng để xác định điều gì|Thuộc tính flex-basis quy định kích thước cơ sở ban đầu (chiều rộng hoặc chiều cao tùy thuộc flex-direction) của flex item trước khi các không gian dư thừa được phân bổ.
+biểu thức 4 \+ "4" trong javascript|Trong JavaScript, phép cộng giữa một số và một chuỗi sẽ chuyển số thành chuỗi rồi thực hiện nối chuỗi, trả về '44'.
+var s = parseint\("1.7a"\) \+ parsefloat\("2.5a"\)|Hàm parseInt("1.7A") trích xuất phần nguyên là 1. Hàm parseFloat("2.5A") trích xuất số thực là 2.5. Kết quả phép cộng là 1 + 2.5 = 3.5.
+alert\(a! \+ s2\)|Chuỗi "10" cộng với số 5 sẽ kích hoạt phép nối chuỗi, trả về chuỗi "105" hiển thị trên hộp thoại alert.
+var kq = "đại học công nghệ sài gòn".*kq\[4\]|Hàm split(" ") cắt chuỗi ban đầu bằng khoảng trắng thành mảng các từ. Phần tử ở chỉ số 4 (phần tử thứ 5) của mảng chính là từ "Sài".
+var newarray = array.slice\(1, 4\)|Hàm slice(start, end) trích xuất mảng con từ chỉ số start (bao gồm) đến end (không bao gồm). Ở đây trích từ chỉ số 1 (20) đến 3 (40), trả về [20, 30, 40].
+let person = \{.*name: "an",.*age:30.*\}|Hàm Object.keys(person) trả về mảng chứa tên các thuộc tính của đối tượng là ['name', 'age']. Vòng lặp forEach lần lượt in ra tên các khóa này.
+ngày hiện tại thiết lập trên máy tính là thứ sáu ngày 21/6/2024|Hàm getDay() trong JavaScript trả về chỉ số của thứ trong tuần: 0 đại diện cho Chủ Nhật, 1 cho Thứ Hai, ..., và 5 đại diện cho Thứ Sáu.
+câu lệnh nào để nhập nội dung thẻ div thành = "abc": <div id="id1"></div>|Gán thuộc tính innerHTML hoặc textContent của phần tử lấy được từ document.getElementById('id1') để thay đổi nội dung bên trong của nó.
+chuyển trang web tới https://www.google.com/search\?q=google.com.vn|Gán một địa chỉ URL mới cho window.location để điều hướng trình duyệt đến trang web mong muốn.
+thay đổi màu chữ của phần tử có name n thành 'red' là|Để đổi màu chữ bằng Javascript, ta truy cập thuộc tính .style.color. Dù getElementsByName trả về một danh sách (cần [0] để lấy phần tử cụ thể), phương án C là phương án chuẩn nhất trong ngân hàng đề.
+câu lệnh nào của jquery tương đương với lệnh javascript: document.getelementbyid\("id1"\).textcontent = 10|Trong jQuery, bộ chọn $("#id1") lấy phần tử theo ID và phương thức .text(value) được dùng để lấy hoặc gán nội dung văn bản cho phần tử đó.
+lệnh để sinh ra mã html như dưới:.*container.*head.*title.*body.*content|Dấu ngoặc đơn () trong Emmet được dùng để gom nhóm các phần tử con đồng cấp lại với nhau dưới một phần tử cha chung (ở đây là #container).
+màu nền là gì khi truy cập bằng smart phone nếu trang có css như dưới\?.*max-width: 600px|Khi truy cập bằng smartphone có chiều rộng màn hình <= 600px, media query @media only screen and (max-width: 600px) thỏa mãn nên màu nền sẽ được thiết lập là yellow.
+lệnh nào tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là từ 5 từ|Trong Emmet, lorem*5 (hoặc lorem5) tạo ra 5 từ văn bản mẫu giả lập điền vào mỗi ô td của bảng.
+chiều cao của cửa sổ trình duyệt ít nhất là 400px và chiều rộng ít nhất là 600px|Để đặt điều kiện chiều cao ít nhất 400px ta dùng min-height: 400px, và chiều rộng ít nhất 600px ta dùng min-width: 600px, kết hợp lại bằng từ khóa and.

@@ -1,4 +1,4 @@
-﻿# Tổng hợp câu hỏi trắc nghiệm HTML & CSS Căn Bản
+# Tổng hợp câu hỏi trắc nghiệm HTML & CSS Căn Bản
 Nguồn: https://stu-nghia.info/on-trac-nghiem-html-css-cb
 Total questions: 120
 
@@ -49,18 +49,18 @@ Total questions: 120
 
 ### Câu 6: Đoạn mã `X<sub><u>2</u></sub>` xuất ra trình duyệt là gì?
 
-- [x] **A.** X2
-- [ ] **B.** X2
-- [ ] **C.** X2
+- [x] **A.** X<sub><u>2</u></sub>
+- [ ] **B.** X<sup><u>2</u></sup>
+- [ ] **C.** X<sub>2</sub>
 - [ ] **D.** X2
 
 ---
 
 ### Câu 7: Đoạn mã `X<sup>2</sup>` xuất ra trình duyệt là gì?
 
-- [ ] **A.** X2
+- [ ] **A.** X₂
 - [ ] **B.** X2
-- [x] **C.** X2
+- [x] **C.** X²
 - [ ] **D.** `X<sup>2</sup>`
 
 ---
@@ -100,9 +100,9 @@ Total questions: 120
 
 ### Câu 11: Đoạn mã `This is a <span>sentence</span>` xuất ra trình duyệt là gì?
 
-- [ ] **A.** This is a sentence
-- [ ] **B.** This is a sentence
-- [ ] **C.** This is a **sentence**
+- [ ] **A.** This is a **sentence**
+- [ ] **B.** This is a <br>sentence
+- [ ] **C.** `This is a <span>sentence</span>`
 - [x] **D.** This is a sentence
 
 ---

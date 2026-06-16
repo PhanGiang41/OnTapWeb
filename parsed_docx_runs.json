@@ -1,0 +1,3907 @@
+﻿[
+    {
+        "De":  "Äá» 1",
+        "Q":  "Đoạn mã ab\u003cc\u003ed\u003c/c\u003e xuất ra trên trình duyệt là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "ab\u003cc\u003ed\u003c/c\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "abd",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "abcd",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Lỗi",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Đoạn mã X\u003csup\u003e2\u003c/sup\u003e xuất ra trình duyệt là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "X₂",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "X2",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "X²",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "X\u003csup\u003e2\u003c/sup\u003e",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Trong \u003ctable\u003e thuộc tính màu nền là?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "background",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "bordercolor",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "bgcolor",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "background-color",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để mở liên kết trong một cửa sổ mới sử dụng thuộc tính?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "target=”_top”",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "target=”_self”",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "target=”_blank”",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "target=”_parent”",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Tag nào dùng để tạo tiêu đề kích thước nhỏ nhất?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u003ch1\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u003ch6\u003e",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\u003cheading\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\u003cheader\u003e",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thuộc tính nào xác định tốc độ chuyển động của \u003cmarquee\u003e?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "scrollamount",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "behavior",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "direction",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "loop",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Trong textfield \u003cinput type=\"text\"/\u003e thuộc tính nào giới hạn số ký tự nhập vào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "size",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "maxlength",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "width",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "value",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thuộc tính nào dùng để tạo gợi ý nhập liệu cho 1 text field?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "recommend",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "hint",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "placeholder",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "hint = “Nhập số”",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thêm thuộc tính nào vào \u003cinput type=\"text\" ...\u003e để không cho người dùng thay đổi giá trị của nó nhưng vẫn gửi dữ liệu lên server?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "enable=\"false\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "readonly",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "locked",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "change-value=\"no\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thẻ nào sau đây dùng để tạo một liên kết trong trang1.html đến vị trí pos1 trong trang2.html biết 2 trang lưu trong cùng 1 thư mục?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u003ca href=\"pos1\u0026trang2.html\"\u003e\u003c/a\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u003ca href=\"trang2.html\u0026pos1\"\u003e\u003c/a\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\u003ca href=\"trang2.html#pos1\"\u003e\u003c/a\u003e",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\u003ca href=\"trang2.html@pos1\"\u003e\u003c/a\u003e",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Trong CSS, thuộc tính nào dùng để định dạng màu chữ?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "font-color",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "font color",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "color",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "text-color",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thuộc tính nào trong CSS dùng để định dạng chữ nghiêng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "text-decoration",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "text-transform",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "italic",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "font-style",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Thuộc tính nào trong CSS định dạng kiểu border phía top của element",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "border–style",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "border-top-type",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "border-top-family",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "border-top-style",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Nếu viết padding: 20px 50px 10px 30px thì padding-bottom là bao nhiêu?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "10px",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "50px",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "20px",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "30px",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "CSS selector sau đây mang ý nghĩa gì?   ul \u003e li[class=\"a\"] { }",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "selector các thẻ li con gián tiếp của ul và có class là a",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "selector các thẻ li đồng cấp của ul và có class là a",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "selector các thẻ li theo sau của ul và có class là a",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "selector các thẻ li con trực tiếp của ul và có class là a",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Khi sử dụng thuộc tính display: flex, thì thuộc tính nào đi kèm xác định chiều của các item con trực tiếp",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "flex-t",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "flex-grow",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "flex-direction",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "auto",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để định dạng màu nền cho các ô thuộc dòng đầu tiên của table có id là tbl1, mã css nào đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "table tr {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "#tbl1 tr1 {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "#tbl1 tr:first {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "#tbl1 tr:first-child {background-color:#F00;}",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Chọn khai báo quan hệ Descendant Selector giữa div và p?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "div ~ p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "div p",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "div * p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "div + p",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Giá trị nào của thuộc tính position có cố định so với cửa sổ và không thay đổi khi scroll?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Absolute",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Fixed",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Relative",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Static",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "pseudo-class CSS đại diện cho phần tử cuối cùng trong nhóm các phần tử đồng cấp",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  ":end-child",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  ":last-element",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  ":last-child",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  ":Cả 2,b,c đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "if (i != 5)",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "if (i \u003c\u003e 5)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "if I \u003c\u003e 5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "if i !=5 then",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Hàm alert(...) trong JavaScript dùng để làm gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Hiển thị một thông báo Yes, No",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Hiển thị thông báo yêu cầu nhập thông tin",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Hiển thị một thông báo",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Không phương án nào đúng",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Đâu là kết quả của phép tính sau 2+6+\u00273\u0027",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "83",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u002783\u0027",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "11",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\u002711\u0027",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Trong JavaScript biểu thức x===y có nghĩa là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Cả x và y đều bằng nhau về giá trị, kiểu và địa chỉ tham chiếu.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Cả hai đều là x và y chỉ bằng nhau về giá trị.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai đều không giống nhau chút nào.",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Trong JavaScript sự kiện Onblur thực hiện khi nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Khi di chuyển con chuột qua form",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Khi một đối tượng trong form mất focus",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Khi một đối tượng trong form nhận focus",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Khi di chuyển con chuột vào nút lệnh",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Hàm nào trong JavaScript được sử dụng để chọn tất cả các đối tượng có class=“selector”?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "querySelectorAll()",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "querySelector()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "getElementByClass()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả a,b,c đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Cách khai báo mảng nào trong javascript là đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "var colors = 1:(\"red\"), 2:(\"green\"), 3 = (\"blue\")",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "var colors = [\"red\", \"green\", \"blue\"]",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "var colors = \"red\", \"green\", \"blue\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để truy cập, lấy giá trị phần tử trong form có id=n ra biến x, mã javascript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "x = document.getElementById(n);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "x = document.getElementById(\u0027n\u0027).value;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "x = document.frm.n.value();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "x = document.frm.n.value;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Cho mảng arr = [\u0027aa\u0027,\u0027bb\u0027,\u0027cc\u0027,\u0027dd\u0027]; để xóa ‘aa’, ‘bb’ và ‘cc’ mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "arr.splice(0,1);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "arr.splice(0,2);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "arr.splice(1,3);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "arr.splice(1,2);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "E",
+                            "Text":  "Arr.splice(0,3); (trên đáp án ko có nhé)",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để ẩn phần tử có id=txt, mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027txt\u0027).display = \u0027none\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.display = \u0027none\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementById(\u0027txt\u0027).css.display = \u0027none\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.display = \u0027hide\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để đổi kích thước chữ của phần tử có id=txt thành 60px, mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.fontSize = \u002760px\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementById(\u0027txt\u0027).css.fontSize = \u002760px\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.Size = \u002760px\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027txt\u0027).fontSize = \u002760px\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để xóa phần tử thứ 1 có class là class1 bằng jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\u0027#class1\u0027)[0].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\u0027.class1\u0027)[0].remove();",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\u0027#class1\u0027)[1].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\u0027.class1\u0027)[1].remove();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Tìm phần tử thứ 2 \u003cp\u003e và thay đổi giá trị của phần tử đó thành \"Hello\", mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementsByName(\u0027p\u0027)[0].innerHTML = \u0027Hello\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByName(\u0027p\u0027)[1].innerHTML = \u0027Hello\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByTagName(\u0027p\u0027)[1].innerText = \u0027Hello\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementsByTagName(\u0027p\u0027)[1].innerHTML = \u0027Hello\u0027;",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để đổi màu chữ của phần tử có name=\u0027n\u0027 thành \u0027red\u0027, mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).color=\u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).add.color=\u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).css.color=\u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).style.color=\u0027red\u0027;",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 1",
+        "Q":  "Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 1 ra biến a, mã javascript là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "a = document.getElementsByName(\"BUTTON\")[0].attributes[0].name;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "a = document.getElementsByName(\"BUTTON\")[0].attributes[1].name;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "a = document.getElementsByTagName(\"BUTTON\")[0].attributes[0].name;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "a = document.getElementsByTagName(\"BUTTON\")[1].attributes[0].name;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Đoạn mã \u003cpre\u003e 1 - 10 \u003c/pre\u003e xuất ra trình duyệt là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "1-10",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "1 - 10",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "1 10",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "1-10",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Tag nào dùng để tạo tiêu đề kích lớn nhất?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u003cheading\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u003cheader\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\u003ch1\u003e",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\u003ch6\u003e",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để đánh dấu bookmark (liên kết trong) ta sử dụng cách nào sau đây?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u003ca name=\"tên_bookmark\"\u003e...\u003c/a\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u003cp id=\"tên_bookmark\"\u003e...\u003c/p\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\u003ca name=\"#tên_bookmark\"\u003e...\u003c/a\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả a và b",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để mở liên kết trong một cửa sổ mới sử dụng thuộc tính?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "target=\"_top\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "target=\"_blank\"",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "target=\"_self\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "target=\"_parent\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Thuộc tính nào xác định tốc độ chuyển động của \u003cmarquee\u003e?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "scrollamount",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "behavior",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "direction",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "loop",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong \u003ctable\u003e sử dụng thẻ \u003cth\u003e nội dung sẽ tự động?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Căn đều 2 bên",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Căn phải",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Căn giữa ô",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong \u003ctable\u003e canh chỉnh nội dung các ô theo chiều dọc là?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "align",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "valign",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "halign",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "text-align",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong \u003ctable\u003e để nối (trộn) các ô theo chiều ngang dùng thuộc tính?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "colpan",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "colspan",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "rowpan",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "rowspan",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Thêm gì vào \u003cinput type=\"text\" /\u003e để có được gợi ý “Nhập số” như hình sau?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "value=\"Nhập số\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "comment=\"Nhập số\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "hint=\"Nhập số\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "placeholder=\"Nhập số\"",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong thẻ \u003cinput type=\"text\" /\u003e thuộc tính nào giới hạn số ký tự nhập vào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "size",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "width",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "maxlength",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "value",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Cú pháp CSS nào được sử dụng để chuyển tất cả các thẻ \u003cp\u003e thành chữ in đậm?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "p {text-size:bold}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "p {font-weight:bold}",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "style:bold",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "p {font:bold}",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Thuộc tính nào của CSS không cho hình nền lặp lại?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "background-repeat: no-repeat",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "image-repeat",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "background-norepeat",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "bgimage-repeat",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Lựa chọn thiết lập ảnh nền cố định?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "background-attachment: fix",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "background-attachment: fixed",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "background-attachment: scroll",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "CSS selector sau đây mang ý nghĩa gì?ul \u003e li[class=\"a\"] { }",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "selector các thẻ li con gián tiếp của ul và có class là a",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "selector các thẻ li con trực tiếp của ul và có class là a",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "selector các thẻ li đồng cấp của ul và có class là a",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "selector các thẻ li theo sau của ul và có class là a",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Thuộc tính và giá trị CSS nào dùng để chuyển tất cả các ký tự đầu chữ viết hoa?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "text-transform: uppercase",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "text-transform: capitaliza",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "text-transform: proper",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Không thể làm được với CSS",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Khi sử dụng thuộc tính display: flex, thuộc tính nào đi kèm để xác định chiều của các item trực tiếp?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "flex-direction",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "flex-grow",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "flex-t",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "auto",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để định dạng màu nền cho các ô thuộc dòng đầu tiên của table có id là tbl1, mã CSS nào đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "table tr {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "#tbl1 tr:1 {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "#tbl1 tr:first {background-color:#F00;}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "#tbl1 tr:first-child {background-color:#F00;}",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Nếu viết padding: 20px 50px 10px 30px thì padding-left là bao nhiêu?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "10px",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "50px",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "20px",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "30px",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Giá trị nào của thuộc tính position cố định so với cửa sổ và không thay đổi khi scroll?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Absolute",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Fixed",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Relative",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Static",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Chọn khai báo quan hệ Adjacent Sibling Selector giữa div và p?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "div ~ p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "div \u003e p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "div + p",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "div * p",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "JavaScript là ngôn ngữ dịch mà nguồn theo kiểu nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Biên dịch",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Thông dịch",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả biên dịch và thông dịch",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Không có dạng nào",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Hàm prompt(…) trong JavaScript dùng để làm gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Hiển thị một thông báo",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Hiển thị một thông báo Yes, No",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Hiển thị thông báo yêu cầu nhập thông tin",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Không phương án nào đúng",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong JavaScript biểu thức x === y có nghĩa là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Cả x và y đều bằng nhau về giá trị, kiểu và địa chỉ tham chiếu",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Cả hai đều là x và y chỉ bằng nhau về giá trị",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai đều bằng nhau về giá trị và kiểu dữ liệu",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai đều không giống nhau chút nào",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Trong JavaScript sự kiện Onblur thực hiện khi nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Khi một đối tượng trong form nhận focus",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Khi một đối tượng trong form mất focus",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Khi di chuyển con chuột qua form",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Khi di chuyển chuột vào nút lệnh",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Cách khai báo mảng nào trong JavaScript là đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "var colors = [\"red\", \"green\", \"blue\"]",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "var colors = {1:\"red\", 2:\"green\", 3:\"blue\"}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "var colors = \"red\", \"green\", \"blue\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "if (i \u003c\u003e 5)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "if i \u003c\u003e 5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "if (i != 5)",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "if i ! 5 then",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Hàm nào trong JavaScript được sử dụng để chọn tất cả các đối tượng có class = “selector”?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "querySelector()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "querySelectorAll()",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "getElementByClass()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả a, b, c đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Form có name=frm, để lấy giá trị phần tử trong form có name=n ra biến x, mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "x = document.frm.n.value;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "x = document.frm.n.value();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "x = document.getElementByName(\u0027n\u0027);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "x = document.getElementsByName(\u0027n\u0027).value;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Tìm phần tử đầu tiên \u003cp\u003e và thay đổi giá trị của phần tử đó thành \"Hello\", mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementsByTagName(\u0027p\u0027)[0].innerHTML = \u0027Hello\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByTagName(\u0027p\u0027)[0].innerHTML = “Hello”;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByTagName(\u0027p\u0027)[1].innerHTML = \u0027Hello\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementsTagName(\u0027p\u0027)[0].innerText = \u0027Hello\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để lấy giá trị tên thuộc tính đầu tiên của phần tử (nút) Button thứ 2 biến a, mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "a = document.getElementsByTagName(\"BUTTON\")[0].attributes[0].name;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "a = document.getElementsByTagName(\"BUTTON\")[1].attributes[0].name;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "a = document.getElementsByName(\"BUTTON\")[0].attributes[0].name; (sai do dùng getElementsByName)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "a = document.getElementsByName(\"BUTTON\")[0].attributes[1].name;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để đổi màu chữ của phần tử có name=n thành red, mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).color = \u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).add.color = \u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByName(\u0027n\u0027)[0].style.color = \u0027red\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).css.color = \u0027red\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để ẩn phần tử có id=txt, mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027txt\u0027).display = \u0027none\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementById(\u0027txt\u0027).css.display = \u0027none\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.display = \u0027none\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.display = \u0027hide\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để đổi kích thước chữ của phần tử có id=txt thành 60px, mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027txt\u0027).css.fontSize = \u002760px\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.fontSize = \u002760px\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementById(\u0027txt\u0027).style.Style = \u002760px\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027txt\u0027).fontSize = \u002760px\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Cho mảng arr = [\u0027aa\u0027,\u0027bb\u0027,\u0027cc\u0027,\u0027dd\u0027]; để xoá \u0027bb\u0027 và \u0027cc\u0027 mã JavaScript là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "arr.splice(1,1);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "arr.splice(1,3);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "arr.splice(2,3);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "arr.splice(1,2);",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 2",
+        "Q":  "Để xoá phần tử thứ 2 có class là class1 bằng jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\u0027.class1\u0027)[0].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\u0027#class1\u0027)[0].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\u0027.class1\u0027)[1].remove();",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\u0027#class1\u0027)[1].remove();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Giá trị mặc định của thuộc tính float trong CSS là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "let",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "right",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "none",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "inherit",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Khi một phần tử con được float, phần tử cha của nó sẽ:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Tự động điều chỉnh chiều cao để bao gồm phần tử con float",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Không bao gồm phần tử con float trong chiều cao của nó",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Trở thành vị trí tương đối",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Trở thành vị trí tuyệt đối",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thuộc tính nào được sử dụng để thay đổi khoảng cách giữa các ký tự trong CSS?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "letter-spacing",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "character-spacing",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "text-spacing",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "word-spacing",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thuộc tính CSS nào sau đây có thể được sử dụng để thiết lập một phần tử cố định ở góc dưới cùng bên phải của cửa sổ trình duyệt?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "position: fixed; bottom: 0; right: 0;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "position: absolute; bottom: 0; right: 0;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "position: static; bottom: 0; right: 0;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "position: relative; bottom: 0; right: 0;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thuộc tính CSS nào được sử dụng để ẩn một phần tử?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "display: none;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "display: hidden;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "visibility: hidden;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "visibility: none;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Selector nào chọn tất cả các phần tử có class là \"example\"?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "*example",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "#example",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "example",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  ".example",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Selector nào chọn tất cả các phần tử \u003cp\u003e mà là phần tử đầu tiên con của phần tử cha?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "p:first-child",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "p:first-of-type",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "p:only-child",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "p:last-child",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Selector nào dưới đây để chọn phần tử \u003cli\u003e ở vị trí lẻ trong một danh sách?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "li:nth-child(even)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "li:nth-of-type(odd)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "li:nth-child(odd)",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "li:odd-child",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Khi một phần tử thuộc tính position: fixed;, phần tử đó sẽ:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Di chuyển cùng với trang khi cuộn.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Vẫn luôn ở cùng vị trí trong cửa sổ trình duyệt khi cuộn trang.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Được đặt tương đối so với phần tử con gần nhất có thuộc tính position.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Được đặt tương đối so với phần tử cha gần nhất.",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Để ngăn chặn các phần tử bị bao quanh một phần tử đã được float, ta sử dụng thuộc tính nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "clear",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "float",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "overflow",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "display",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Responsive Web Design (RWD) là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Một kỹ thuật lập trình chỉ áp dụng cho máy tính cá nhân",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Một phương pháp thiết kế web để tạo ra trang web hiển thị tốt trên nhiều thiết bị và kích thước màn hình khác nhau",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Một loại kiến trúc mạng để tăng tốc độ tải trang web",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Một loại hình quảng cáo trên mạng Internet",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Câu lệnh @media nào dưới đây áp dụng các quy tắc CSS khi chỉ chiều rộng của thiết bị nhỏ hơn hoặc bằng 600px?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "@media screen and (max-width: 600px) { ... }",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "@media screen and (min-width: 600px) { ... }",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "@media screen and (max-height: 600px) { ... }",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "@media screen and (min-height: 600px) { ... }",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Media query nào dưới đây áp dụng các quy tắc CSS khi chiều cao của cửa sổ trình duyệt ít nhất là 400px và chiều rộng nhỏ hơn hoặc bằng 600px?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "@media screen and (min-height: 400px) and (max-width: 600px) { ... }",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "@media screen and (height: 400px) and (width: 600px) { ... }",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "@media screen and (min-height: 400px) and (width: 600px) { ... }",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "@media screen and (height: 400px) and (max-width: 600px) { ... }",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thuộc tính CSS nào được sử dụng để xác định tỷ lệ mà một phần tử con sẽ mở rộng trong container Flexbox?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "flex-grow",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "flex-shrink",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "flex-basis",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "flex",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thuộc tính flex-shrink được sử dụng để xác định điều gì về phần tử con trong container Flexbox?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Tỷ lệ mở rộng",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Tỷ lệ co lại",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Tỷ lệ không gian trống",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tỷ lệ phân trăm",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Trong JavaScript, từ khóa nào được sử dụng để khai báo một biến không thể thay đổi giá trị sau khi đã được gán giá trị?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "let",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "var",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "const",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "static",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Kết quả của biểu thức 2 + \"2\" trong JavaScript là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "4",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\"22\"",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "NaN",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "undefined",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Kết quả biến x là gì? var x = parseInt(\"12.5A\") + parseFloat(\"12.4A\");",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "24.9",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "24.5",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "24.9",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\"125124\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Đoạn mã nào có nhiệm vụ tạo đối tượng trong JavaScript?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "conts dog = {};",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "conts dog = new Object();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "conts dog = Object.create({});",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả đều đúng",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Trong JavaScript, biểu thức x=== y có nghĩa là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Cả hai chỉ bằng nhau về giá trị, kiểu và địa chỉ tham chiếu.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Cả hai chỉ bằng nhau về giá trị.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai đều không giống nhau chút nào.",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Lệnh x = 10; x2 = \"5\"; alert(s1 * s2); kết quả trên hộp thoại alert là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "10*5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "50",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Lỗi",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả đều sai",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Cho đoạn mã javascript như sau:\nvar s = \" Đại học Công Nghệ Sài Gòn \";\ns = s.trim();\nvar kq = s.split(\" \");\nKết quả kq[2] của đoạn mã trên:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Đại",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Nghệ",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Công",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Sài",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Kết quả của đoạn mã javascript dưới đây:\nlet person1 = {name: \u0027An\u0027};\nlet person2 = person1;\nperson2.name = \u0027Bình\u0027;\nconsole.log(person1.name);",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u0027An\u0027",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u0027Bình\u0027",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "undefined",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "error",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Kết quả của đoạn mã dưới đây là gì?\nvar array = [10, 20, 30, 40, 50];\nvar part = array.slice(1, 4);\nconsole.log(part);",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "[10, 20, 30, 40, 50]",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "[20, 30, 40]",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "[30, 40, 50]",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "[20, 30, 40, 50]",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Nếu hiện tại thiết lập trên máy tính là thứ Tư ngày 19/6/2024, kết quả hộp thoại alert là gì sau lệnh:\nlet d = new Date();\nalert(d.getDay());?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "4",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "3",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Wed",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "19",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Câu lệnh nào để thay đổi nội dung thẻ div thành \"abc\" :\n\u003cdiv id=\"id1\"\u003e\u003c/div\u003e",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027id1\u0027).innerHTML=\"abc\";",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsById(\u0027id1\u0027).innerHTML=\"abc\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementByTagName(\u0027div\u0027).innerHTML=\"abc\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementByTagName(\u0027div\u0027).innerHTML=\"abc\";",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Để xóa toàn bộ nội dung trang web, dùng lệnh Javascript nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.body.innerHTML=\"\";",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByTagName(\u0027body\u0027)[0].innerHTML=\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai a, b đều sai",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai a, b đều đúng",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Thay đổi thẻ div#id1 sử dụng class c2 là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027id1\u0027).className=\u0027c2\u0027",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementById(\u0027id1\u0027)=\u0027c2\u0027",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementById(\u0027#id1\u0027).className =\u0027c2\u0027",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027id1\u0027).class =\u0027c2\u0027",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Để đếm xem trong trang web có bao nhiêu form ta sử dụng lệnh nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "n = document.form.length;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "n = document.forms.length();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "n = document.forms.length;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "n = document.form.length();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Câu lệnh Javascript để quay về trang trước trong history của trình duyệt",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\u003cbutton onclick=\"history.back()\"\u003eGo Back\u003c/button\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\u003cbutton onclick=\"history.go(-1)\"\u003eGo Back 2 Pages\u003c/button\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\u003cbutton onclick=\"history.go.back()\"\u003eGo Back 2 Pages\u003c/button\u003e",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả a,b đúng",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Thư viện javascript giúp viết mã javascript nhanh gọn hơn",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Một đối tượng của javascript",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Một dạng framework",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Một phần mềm lập trình javascript",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Phương thức jquery nào lấy (trả về) nội dung văn bản của tất cả các phần tử đã chọn:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "html();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "attr();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "val();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "text()",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Câu lệnh nào của jQuery tương đương với lệnh javascript: document.getElementById(\u0027id1\u0027).innerHTML=10;",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(“id1”).html(10);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\"#id1\").html(10);",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\"id1\").innerHTML=10;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\"#id1\").htmlHTML=10;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Trong jQuery, để ẩn các thẻ p, sử dụng lệnh:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\"\u003cp\u003e\").hide();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\"p\").display(\"none\");",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\"p\").display(\"hide\");",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\"p\").hide();",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Để xóa phần tử có class là class1 bằng jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\".class1\")[0].remove();",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(#class1)[0].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\"class1\")[1].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\"#class1\")[1].remove();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Khi xây dựng Web responsive, trang web sẽ có màu nền là gì khi truy cập bằng smart phone nếu trang có css như dưới?\n@media only screen and (max-width: 768px) { body{background-color: red;} }\n@media only screen and (max-width: 768px) { body{background-color: green;} }\n@media only screen and (min-width: 992px) { body{background-color: blue;} }\n@media only screen and (min-width: 1200px) { body{background-color: yellow;} }",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Red",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Green",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Blue",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Yellow",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Figma là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Công cụ lập trình web",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Công cụ thiết kế web",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Framework CSS",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Thư viện javascript",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Khi sử dụng emmet trong Visual Code để viết html, lệnh nào tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là 5 từ:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "table\u003e#id1\u003etr*3\u003etd*2\u003elorem5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "table\u003e#id1\u003etr*3\u003etd*2*lorem*5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "table#id1\u003etr*3\u003etd*2\u003elorem*5",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "table#id1\u003etr*3\u003etd*5\u003elorem5",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "Lệnh để sinh ra mã html như dưới sử dụng emmet là:\n\u003cdiv id=\"container\"\u003e\n\u003cdiv id=\"head\" class=\"c1\"\u003e\u003c/div\u003e\n\u003cdiv id=\"content\" class=\"c2\"\u003e\u003c/div\u003e\n\u003c/div\u003e",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "#container\u003e#head.c1+#content.c2",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "#container\u003e#head.c1\u003e#content.c2",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "#container\u003e(head.c1+content.c2)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "container\u003e(head.c1+content.c2)",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 3",
+        "Q":  "AngularJS, ReactJS, và VueJS là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Các thư viện/framework phổ biến để phát ứng dụng web fullstack",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Các thư viện/framework phổ biến phát triển web backend",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Các thư viện/framework phổ biến để phát triển giao diện người dùng trong ứng dụng web.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả các câu trên là đúng",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Thuộc tính nào được sử dụng để thay đổi kích thước chữ trong CSS?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "font-size",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "text-size",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "size",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "text-font",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Selector nào được sử dụng để chọn phần tử \u003ca\u003e khi người dùng click (chọn) vào nó?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "a:focus",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "a:active",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "a:hover",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "a:visited",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Khi sử dụng float trên một phần tử, phần tử này sẽ:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Thay đổi vị trí của phần tử cha",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Bị kéo ra khỏi luồng bình thường của tài liệu",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Ảnh hưởng đến tất cả các phần tử anh em bên ngoài container",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Không ảnh hưởng đến các phần tử khác",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Thuộc tính CSS nào sau đây có thể được sử dụng để thiết lập một phần tử cố định ở góc dưới cùng bên phải của cửa sổ trình duyệt?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "position: relative; bottom: 0; right: 0;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "position: absolute; bottom: 0; right: 0;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "position: fixed; bottom: 0; right: 0;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "position: static; bottom: 0; right: 0;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Thuộc tính CSS nào được sử dụng để trình bày các phần tử nằm cùng nhau trên một hàng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "display: block;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "display: inline;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "visibility: hidden;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "display: none;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Selector nào chỉ chọn phần tử p chứa class \"example\"?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "p:example",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  ".p.example",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "p.example",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "p^example",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Selector nào chọn phần tử \u003cp\u003e là phần tử con thứ 2 của phần tử cha tính từ cuối cùng?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  ":nth-last-child(2)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "p: nth-child(2)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "p:nth-child(2)",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "p:nth-last-child(2)",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Selector nào chọn tất cả các phần tử \u003cp\u003e là anh em liền kề của một phần tử \u003cp\u003e?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "p + p",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "p ~ p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "p, p",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "p p",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Giá trị thuộc tính nào được đặt mặc định cho các phần tử html và không bị ảnh hưởng bởi các thuộc tính top, bottom, left và right.",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "position: static;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "position: relative;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "position: fixed;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "position: absolute;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Phần nội dung footer thường sử dụng thuộc tính nào để ngăn chặn các phần tử khác ảnh hưởng đến nó?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "float: auto;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "clear: auto;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "overflow: hidden;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "clear: both;",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Trong CSS, thuộc tính \"min-width\" được sử dụng để làm gì trong Responsive Web Design?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Xác định chiều rộng tối đa cho một phần tử",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Xác định chiều cao tối đa cho một phần tử",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Xác định chiều rộng tối thiểu cho một phần tử",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Xác định chiều cao tối thiểu cho một phần tử",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Media query nào dưới đây áp dụng các quy tắc CSS chỉ khi thiết bị là máy in?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "@media print {...}",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "@media printer {...}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "@media screen and (device: print) {...}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "@media screen and (type: print) {...}",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Media query nào dưới đây áp dụng các quy tắc CSS chỉ khi chiều cao của cửa sổ trình duyệt ít nhất là 400px và chiều rộng ít nhất là 600px?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "@media screen and (min-height: 400px) and (max-width: 600px) {...}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "@media screen and (height: 400px) and (width: 600px) {...}",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "@media screen and (min-height: 400px) and (min-width: 600px) {...}",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "@media screen and (height: 400px) and (max-width: 600px) {...}",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Thuộc tính CSS nào được sử dụng để xác định tỷ lệ mà một phần tử con sẽ co lại trong container Flexbox?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "flex-grow",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "flex-basis",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "flex-shrink",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "flex",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Thuộc tính flex-basis được sử dụng để xác định điều gì về phần tử con trong container Flexbox?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Tỷ lệ mở rộng",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Tỷ lệ co lại",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Chỉ định độ dài ban đầu",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Chỉ định độ cao ban đầu",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Trong JavaScript, từ khóa nào được sử dụng để khai báo một biến không thể thay đổi giá trị sau khi đã được gán giá trị?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "let",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "var",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "const",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "undefined",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Kết quả của biểu thức 4 + \"4\" trong JavaScript là gì?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "\"44\"",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "8",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "NaN",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "undefined",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Kết quả biến s là gì?\nvar s = parseInt(\"1.7A\") + parseFloat(\"2.5A\");",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "3.2",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "3.5",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "\"1725\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "2.7",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Đoạn mã nào có nhiệm vụ tạo đối tượng trong javascript?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "conto dog = {};",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "conto dog = new Object();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "conto dog = Object.create({});",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả đều đúng",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Trong javascript, biểu thức x = y có nghĩa là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Gán giá trị y cho x.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Cả hai chỉ bằng nhau về giá trị.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai đều bằng nhau về giá trị và kiểu dữ liệu.",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai bằng nhau về địa chỉ tham chiếu.",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Lệnh: a! = \"10\"; s2 = 5; alert(a! + s2); Kết quả trên hộp thoại Alert là",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "15",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "\"10\"5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "105",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\"55\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Cho đoạn mã javascript như sau:\nvar kq = \"Đại học Công Nghệ Sài Gòn\";\nvar kq_ = kq.split(\" \");\nKết quả kq[4] của đoạn mã trên:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Đại",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Nghệ",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Gòn",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Sài",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Kết quả của đoạn mã dưới đây là gì?\nvar array = [10, 20, 30, 40, 50];\nvar newArray = array.slice(1, 4);\nconsole.log(newArray);",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "[20, 30, 40]",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "[50, 40, 50]",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "[20, 30, 40, 50]",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "[10, 20, 30, 40]",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Kết quả của đoạn mã javascript dưới đây:\nlet person = {\nname: \"An\",\nage:30\n};\nObject.keys(person).forEach(key =\u003e {\nconsole.log(key);\n});",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "age",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Name",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "An 30",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "\u0027name age\u0027",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Ngày hiện tại thiết lập trên máy tính là thứ Sáu ngày 21/6/2024, kết quả hộp thoại là gì sau lệnh: new Date().getDay();",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "21",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Fri",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "0",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "5",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Để đếm xem trong trang web có bao nhiêu form ta sử dụng lệnh nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "n = document.form.length;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "n = document.form.length();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "n = document.forms.length;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "n = document.forms.length();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Câu lệnh nào để nhập nội dung thẻ div thành = \"abc\": \u003cdiv id=\"id1\"\u003e\u003c/div\u003e",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementById(\u0027id1\u0027).innerHTML = \"abc\";",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByTagName(\u0027div\u0027).innerHTML = \"abc\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByTagName(\u0027div\u0027).innerHTML = \"abc\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementById(\u0027id1\u0027).innerText = \"abc\";",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Để xóa toàn bộ nội dung trang web, dùng lệnh javascript nào?",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.body.innerHTML = \"\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByTagName(\u0027body\u0027)[0].innerHTML = \"\";",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Cả hai a, b đều sai",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Cả hai a, b đều đúng",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Để chuyển trang web tới https://www.google.com/search?q=google.com.vn, sử dụng lệnh",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "URL.location = \"https://www.google.com.vn/\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "window.URL.location=\"https://www.google.com/\"",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "window.location=\"https://www.google.com.vn/\"",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "window.location=\"https://www.google.com.\"",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Để thay đổi màu chữ của phần tử có name n thành \u0027red\u0027 là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).color = \u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).add.color = \u0027red\u0027;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).style.color = \u0027red\u0027;",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "document.getElementsByName(\u0027n\u0027).css.color = \u0027red\u0027;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Một đối tượng của javascript",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Thư viện javascript giúp viết mã javascript nhanh gọn hơn",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Một phần mềm lập trình javascript",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Một dạng framework",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Trong jQuery, để ẩn các thẻ p, sử dụng lệnh:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\u0027p\u0027).display(\"hide\")",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\u0027p\u0027).display(\"none\")",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\u0027p\u0027).hide()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\u0027p\u0027).hide();",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Phương thức jquery nào lấy (trả về) nội dung văn bản của tất cả các phần tử đã chọn:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "html()",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "val();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "text()",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "attr();",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Để xóa phần tử thứ 2 có class là class1 bằng jQuery là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\u0027class1\u0027)[0].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\u0027class1\u0027)[1].remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\u0027class1\u0027).remove();",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\u0027class1\u0027)[1].remove();",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Câu lệnh nào của jQuery tương đương với lệnh javascript: document.getElementById(\"id1\").textContent = 10;",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "$(\"#id1\").text(10);",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "$(\"#id1\").text(10);",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "$(\"#id1\").textContent = 10;",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "$(\"#id1\").textContent = 10;",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "AngularJS, ReactJS, và VueJS là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Các thư viện/framework phổ biến để phát triển giao diện người dùng trong ứng dụng web.",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Các thư viện/framework phổ biến phát triển web backend",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Các thư viện/framework phổ biến để phát triển ứng dụng web fullstack",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Tất cả các câu trên là đúng",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Figma là:",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Công cụ lập trình web",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Framework CSS",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Công cụ thiết kế web",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Thư viện javascript",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Lệnh để sinh ra mã html như dưới:\n\u003cdiv id=\"container\"\u003e\n\u003chead\u003e\n\u003ctitle\u003eContent\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cdiv class=\"content\"\u003e\u003c/div\u003e\n\u003c/body\u003e\n\u003c/div\u003e",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "#container\u003e#head.c1\u003e#content.c2",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "#container\u003ehead.c1+content.c2",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "#container\u003e(head.c1+content.c2)",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "container\u003e(head.c1+content.c2)",
+                            "Correct":  false
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Khi xây dựng Web responsive, trang web sẽ có màu nền là gì khi truy cập bằng smart phone nếu trang có css như dưới?\n@media only screen and (max-width: 600px) {\nbody {background-color: yellow;}\n}\n@media only screen and (min-width: 601px) {\nbody {background-color: green;}\n}\n@media only screen and (min-width: 992px) {\nbody {background-color: blue;}\n}\n@media only screen and (min-width: 1200px) {\nbody {background-color: red;}\n}",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "Red",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "Green",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "Blue",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "Yellow",
+                            "Correct":  true
+                        }
+                    ]
+    },
+    {
+        "De":  "Äá» 4",
+        "Q":  "Khi sử dụng emmet trong Visual Code để thiết kế html, lệnh nào tạo ra bảng có id=id1 và có 3 dòng, mỗi dòng 2 cột, nội dung mỗi ô là từ 5 từ.",
+        "Options":  [
+                        {
+                            "Letter":  "A",
+                            "Text":  "table#id1\u003etr*3\u003etd*2\u003elorem*5",
+                            "Correct":  true
+                        },
+                        {
+                            "Letter":  "B",
+                            "Text":  "table#id1\u003etr*3\u003etd*2\u003elorem*5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "C",
+                            "Text":  "table#id1\u003etr*3\u003etd*2\u003elorem5",
+                            "Correct":  false
+                        },
+                        {
+                            "Letter":  "D",
+                            "Text":  "table#id1\u003etr*3\u003etd*2\u003elorem5",
+                            "Correct":  false
+                        }
+                    ]
+    }
+]

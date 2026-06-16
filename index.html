@@ -425,6 +425,18 @@
             pointer-events: none;
         }
 
+        .choice-btn.selected {
+            background: rgba(139, 92, 246, 0.1) !important;
+            border-color: var(--accent-color) !important;
+            box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+        }
+
+        .choice-btn.selected .choice-letter {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
         .choice-text {
             line-height: 1.5;
             padding-top: 1px;
@@ -730,7 +742,8 @@
     // State Variables
     let questions = []; // Active list of questions being displayed
     let originalQuestions = []; // The clean, unmodified active question list
-    let userAnswers = {}; // Map of index -> selected choice letter
+    let userAnswers = {}; // Map of index -> selected choice letter (string or array)
+    let tempSelections = {}; // Map of index -> array of currently selected options (for multi-choice)
     let currentSingleIndex = 0; // Current index for 'single' view
     let viewMode = 'single'; // 'single' or 'all'
 
@@ -757,6 +770,7 @@
 
     function initQuiz() {
         userAnswers = {};
+        tempSelections = {};
         currentSingleIndex = 0;
         originalQuestions = JSON.parse(JSON.stringify(quizData));
         document.getElementById('total-questions-count').innerText = originalQuestions.length;
@@ -781,6 +795,7 @@
 
     function applySettings() {
         let tempQuestions = JSON.parse(JSON.stringify(originalQuestions));
+        tempSelections = {};
 
         // 1. Search filter
         const query = document.getElementById('search-input').value.trim().toLowerCase();
@@ -805,17 +820,26 @@
                 const optsArray = Object.entries(q.options);
                 const shuffledOptsArray = shuffleArray(optsArray);
                 
-                const correctValue = q.options[q.answer];
+                const isMulti = Array.isArray(q.answer);
+                const correctValues = isMulti ? q.answer.map(letter => q.options[letter]) : [q.options[q.answer]];
                 
                 q.options = {};
                 const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+                const newCorrectAnswers = [];
+                
                 shuffledOptsArray.forEach((opt, idx) => {
                     const letter = letters[idx];
                     q.options[letter] = opt[1];
-                    if (opt[1] === correctValue) {
-                        q.answer = letter;
+                    if (correctValues.includes(opt[1])) {
+                        newCorrectAnswers.push(letter);
                     }
                 });
+                
+                if (isMulti) {
+                    q.answer = newCorrectAnswers;
+                } else {
+                    q.answer = newCorrectAnswers[0] || 'A';
+                }
             });
         }
 
@@ -836,8 +860,15 @@
 
     function resetQuiz() {
         userAnswers = {};
+        tempSelections = {};
         currentSingleIndex = 0;
         applySettings();
+    }
+
+    function restartAndShuffle() {
+        document.getElementById('shuffle-questions').checked = true;
+        document.getElementById('shuffle-options').checked = true;
+        resetQuiz();
     }
 
     // Stats calculations
@@ -851,10 +882,23 @@
         
         answeredKeys.forEach(idx => {
             const index = parseInt(idx);
-            if (userAnswers[index] === questions[index].answer) {
-                correct++;
+            const userAns = userAnswers[index];
+            const correctAns = questions[index].answer;
+            
+            if (Array.isArray(correctAns)) {
+                if (Array.isArray(userAns) && 
+                    userAns.length === correctAns.length && 
+                    userAns.every(val => correctAns.includes(val))) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
             } else {
-                incorrect++;
+                if (userAns === correctAns) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
             }
         });
 
@@ -887,6 +931,9 @@
     function renderQuiz() {
         const quizArea = document.getElementById('quiz-area');
         quizArea.innerHTML = '';
+        
+        // Restore navigation panel display mode
+        document.getElementById('navigation-panel').style.display = viewMode === 'single' ? 'flex' : 'none';
         
         if (questions.length === 0) {
             quizArea.innerHTML = `
@@ -941,6 +988,7 @@
 
         const selectedAnswer = userAnswers[index];
         const hasBeenAnswered = typeof selectedAnswer !== 'undefined';
+        const isMultiChoice = Array.isArray(q.answer);
 
         Object.entries(q.options).forEach(([letter, choiceText]) => {
             const btn = document.createElement('button');
@@ -959,14 +1007,35 @@
 
             if (hasBeenAnswered) {
                 btn.classList.add('disabled');
-                if (letter === q.answer) {
-                    btn.classList.add('correct');
-                }
-                if (selectedAnswer === letter && letter !== q.answer) {
-                    btn.classList.add('incorrect');
+                
+                if (isMultiChoice) {
+                    const isCorrectOption = q.answer.includes(letter);
+                    const wasSelected = selectedAnswer.includes(letter);
+                    
+                    if (isCorrectOption) {
+                        btn.classList.add('correct');
+                    } else if (wasSelected) {
+                        btn.classList.add('incorrect');
+                    }
+                } else {
+                    if (letter === q.answer) {
+                        btn.classList.add('correct');
+                    }
+                    if (selectedAnswer === letter && letter !== q.answer) {
+                        btn.classList.add('incorrect');
+                    }
                 }
             } else {
-                btn.addEventListener('click', () => handleSelectOption(index, letter));
+                if (isMultiChoice) {
+                    const currentTemp = tempSelections[index] || [];
+                    const isSelected = currentTemp.includes(letter);
+                    if (isSelected) {
+                        btn.classList.add('selected');
+                    }
+                    btn.addEventListener('click', () => handleToggleOption(index, letter));
+                } else {
+                    btn.addEventListener('click', () => handleSelectOption(index, letter));
+                }
             }
 
             choicesContainer.appendChild(btn);
@@ -975,6 +1044,24 @@
         card.appendChild(header);
         card.appendChild(text);
         card.appendChild(choicesContainer);
+
+        // Confirm button for multi-choice
+        if (isMultiChoice && !hasBeenAnswered) {
+            const confirmBtn = document.createElement('button');
+            confirmBtn.className = 'btn btn-primary';
+            confirmBtn.style.marginTop = '20px';
+            confirmBtn.style.width = '100%';
+            confirmBtn.style.justifyContent = 'center';
+            confirmBtn.innerText = 'Xác nhận đáp án';
+            
+            const currentTemp = tempSelections[index] || [];
+            confirmBtn.disabled = currentTemp.length === 0;
+            
+            confirmBtn.addEventListener('click', () => {
+                handleSubmitMultiChoice(index);
+            });
+            card.appendChild(confirmBtn);
+        }
 
         // Render explanation if answered
         if (hasBeenAnswered && (q.explanation || q.answer)) {
@@ -986,7 +1073,14 @@
             expTitle.innerHTML = `💡 Giải thích đáp án`;
             
             const expContent = document.createElement('div');
-            expContent.innerHTML = q.explanation ? q.explanation : `Đáp án đúng là <strong>${q.answer}</strong> theo ngân hàng câu hỏi chính thức.`;
+            let correctText = "";
+            if (isMultiChoice) {
+                correctText = `Đáp án đúng là: <strong>${q.answer.join(', ')}</strong>`;
+            } else {
+                correctText = `Đáp án đúng là: <strong>${q.answer}</strong>`;
+            }
+            
+            expContent.innerHTML = q.explanation ? q.explanation : `${correctText} theo ngân hàng câu hỏi chính thức.`;
 
             exp.appendChild(expTitle);
             exp.appendChild(expContent);
@@ -1025,6 +1119,22 @@
                 // Format italic *text* -> <em>text</em>
                 temp = temp.replace(/\*([^*]+)\*/g, '<em>$1</em>');
                 
+                // Restore safe tags
+                temp = temp
+                    .replace(/&lt;sub&gt;/gi, '<sub>')
+                    .replace(/&lt;\/sub&gt;/gi, '</sub>')
+                    .replace(/&lt;sup&gt;/gi, '<sup>')
+                    .replace(/&lt;\/sup&gt;/gi, '</sup>')
+                    .replace(/&lt;u&gt;/gi, '<u>')
+                    .replace(/&lt;\/u&gt;/gi, '</u>')
+                    .replace(/&lt;span&gt;/gi, '<span>')
+                    .replace(/&lt;\/span&gt;/gi, '</span>')
+                    .replace(/&lt;strong&gt;/gi, '<strong>')
+                    .replace(/&lt;\/strong&gt;/gi, '</strong>')
+                    .replace(/&lt;em&gt;/gi, '<em>')
+                    .replace(/&lt;\/em&gt;/gi, '</em>')
+                    .replace(/&lt;br\s*\/?&gt;/gi, '<br>');
+                
                 parts[i] = temp;
             }
         }
@@ -1055,6 +1165,55 @@
         }
     }
 
+    function handleToggleOption(questionIndex, letter) {
+        if (typeof userAnswers[questionIndex] !== 'undefined') return;
+        
+        if (!tempSelections[questionIndex]) {
+            tempSelections[questionIndex] = [];
+        }
+        
+        const idx = tempSelections[questionIndex].indexOf(letter);
+        if (idx > -1) {
+            tempSelections[questionIndex].splice(idx, 1);
+        } else {
+            tempSelections[questionIndex].push(letter);
+        }
+        
+        // Redraw card to update selection styles
+        const card = document.getElementById(`q-card-${questionIndex}`);
+        const parent = card.parentNode;
+        const newCard = createQuestionCard(questions[questionIndex], questionIndex);
+        parent.replaceChild(newCard, card);
+    }
+
+    function handleSubmitMultiChoice(questionIndex) {
+        if (typeof userAnswers[questionIndex] !== 'undefined') return;
+        
+        const selected = tempSelections[questionIndex] || [];
+        if (selected.length === 0) return;
+        
+        userAnswers[questionIndex] = selected;
+        
+        // Redraw card
+        const card = document.getElementById(`q-card-${questionIndex}`);
+        const parent = card.parentNode;
+        const newCard = createQuestionCard(questions[questionIndex], questionIndex);
+        parent.replaceChild(newCard, card);
+        
+        calculateStats();
+
+        // Auto navigate if correct
+        const correctAns = questions[questionIndex].answer;
+        const isCorrect = selected.length === correctAns.length && selected.every(val => correctAns.includes(val));
+        if (viewMode === 'single' && currentSingleIndex < questions.length - 1 && isCorrect) {
+            setTimeout(() => {
+                if (currentSingleIndex === questionIndex) {
+                    navigateQuestion(1);
+                }
+            }, 1000);
+        }
+    }
+
     function navigateQuestion(step) {
         const nextIndex = currentSingleIndex + step;
         if (nextIndex >= 0 && nextIndex < questions.length) {
@@ -1076,8 +1235,19 @@
         
         Object.keys(userAnswers).forEach(idx => {
             const index = parseInt(idx);
-            if (userAnswers[index] === questions[index].answer) {
-                correct++;
+            const userAns = userAnswers[index];
+            const correctAns = questions[index].answer;
+            
+            if (Array.isArray(correctAns)) {
+                if (Array.isArray(userAns) && 
+                    userAns.length === correctAns.length && 
+                    userAns.every(val => correctAns.includes(val))) {
+                    correct++;
+                }
+            } else {
+                if (userAns === correctAns) {
+                    correct++;
+                }
             }
         });
 
@@ -1111,7 +1281,7 @@
                 </div>
 
                 <div style="display: flex; gap: 15px; justify-content: center;">
-                    <button class="btn btn-primary" onclick="resetQuiz()">Làm lại bài này</button>
+                    <button class="btn btn-primary" onclick="restartAndShuffle()">Làm lại từ đầu (Trộn đề & đáp án)</button>
                     <button class="btn btn-secondary" onclick="setViewMode('all')">Xem lại chi tiết</button>
                 </div>
             </div>
